@@ -1,0 +1,262 @@
+/*!
+ * Bootstrap v4.5.0 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "utilities";
+@import "print";
+
+//--------------------------------------------------
+//--------------------------------------------------
+                //HEADER
+//--------------------------------------------------
+//--------------------------------------------------
+.header{
+    @extend .container-fluid;
+    @extend .p-0;
+    @extend .m-0;
+
+    &__nav{
+        @extend .row;
+        @extend .navbar;
+        @extend .navbar-expand-sm;
+        @extend .navbar-expand-md;
+        @extend .navbar-expand-lg;
+        @extend .navbar-light;
+        @extend .bg-light;
+        @extend .p-0;
+        @extend .m-0;
+        
+ 
+//--------------------------------------------------
+                //SECTOR LOGO
+//--------------------------------------------------
+
+        &__div{
+            @extend .col-sm-12;
+            @extend .col-lg-2;
+            @extend .m-0;
+
+            &__img{
+                @extend .img-fluid;
+            }
+        }
+
+        &__button{
+            @extend .navbar-toggler;
+            @extend .col-sm-12;
+        
+            &__span{
+                @extend .navbar-toggler-icon; 
+            }
+        }
+
+//--------------------------------------------------
+                //SECTOR MENU Y SUB MENU
+//--------------------------------------------------
+        &__text{
+            @extend .p-0;
+            @extend .col-sm-12;
+            @extend .col-lg-8;
+            @extend .collapse;
+            @extend .navbar-collapse;
+
+            &__ul{
+                @extend .navbar-nav;
+                @extend .d-flex;
+                @extend .justify-content-around;
+
+                &__li{
+                    @extend .nav-item;
+                    @extend .active;
+                    @extend .dropdown;
+
+                    &__a{
+                        @extend .text-decoration-none;
+                        @extend .navbar-link !optional;
+                    }
+                    
+                    &__div{
+                        @extend .dropdown-menu;
+                        @extend .text-center;
+
+                        &__a{
+                            @extend .dropdown-item;
+                            @extend .p-0;
+                        }
+                    }
+                }
+            }
+
+        }
+
+//--------------------------------------------------
+                //SECTOR REDES
+//--------------------------------------------------
+        &__redes{
+            @extend .col-sm-12;
+            @extend .col-lg-2 ;
+            @extend .pr-5;
+            @extend .d-flex;
+            @extend .align-items-center;
+            @extend .justify-content-around; 
+        }
+    }
+}
+
+//--------------------------------------------------
+//--------------------------------------------------
+                    //FOOTER
+//--------------------------------------------------
+//--------------------------------------------------
+
+.footer{
+    @extend .container-fluid;
+    &__section{
+        @extend .row;
+        &__article{
+            @extend .col-sm-12;
+            @extend .col-lg-4;
+            &__h2{
+                @extend .col-12;
+                @extend .text-center;
+                @extend .font-weight-bolder;
+                @extend .text-white;
+            }
+            &__div{
+                @extend .m-auto;
+                @extend .row;
+
+//--------------------------------------------------
+                //SECTOR IMG
+//--------------------------------------------------
+
+                &__div{
+                    @extend .col-6;
+                    @extend .p-0;
+                    &__img {
+                        @extend .p-0;
+                        @extend .img-fluid; 
+                    }
+                }
+            }
+//--------------------------------------------------
+                //SECTOR TEXTO
+//--------------------------------------------------
+            &__texto{
+                @extend .m-2;
+                &__p{
+                    @extend .text-white;
+                }
+                &__ol{
+                    @extend .text-white;
+                    @extend .text-uppercase;
+                }
+            }
+        }
+
+    }
+}
+
+//--------------------------------------------------
+//--------------------------------------------------
+                    //INDEX
+//--------------------------------------------------
+//--------------------------------------------------
+
+//--------------------------------------------------
+                    //SECTOR FOTO Y VIDEO 
+//--------------------------------------------------
+
+.index{
+    @extend .d-flex;
+    @extend .align-items-center;
+    @extend .justify-content-around;
+    &__img{
+        @extend .position-relative;
+        @extend .visible-lg !optional;
+    }
+    &__video1{
+        @extend .position-absolute;
+        @extend .d-none;
+        @extend .d-xl-block;
+    }
+    &__video2{
+        @extend .d-none;
+        @extend .d-sm-block;
+        @extend .d-md-none;
+        @extend .d-flex;
+        @extend .align-items-center;
+        @extend .justify-content-around;
+
+    }
+}
+
+//--------------------------------------------------
+                    //CARUSEL
+//--------------------------------------------------
+
+.carrusel{
+    @extend .container;
+    &__article{
+        &__div{
+            @extend .carousel;
+            @extend .m-auto;
+            &__ol{
+                @extend .carousel-indicators;
+                &__li{
+                    @extend .active;
+                }
+            }
+        }
+        &__div{
+            @extend .carousel-inner;
+            &__div{
+                @extend .carousel-item;
+                @extend .active;
+                img {
+                    @extend .d-block;
+                    @extend .w-100
+                }
+            }
+        }
+    
+    }    
+}
