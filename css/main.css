@@ -903,7 +903,7 @@ pre code {
   overflow-y: scroll;
 }
 
-.container, .carrusel, .sectionM__article2, .sectionM__article {
+.container, .carrusel, .sectionM__article2, .sectionM__article, .sectionB__article2 {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -912,30 +912,30 @@ pre code {
 }
 
 @media (min-width: 576px) {
-  .container, .carrusel, .sectionM__article2, .sectionM__article {
+  .container, .carrusel, .sectionM__article2, .sectionM__article, .sectionB__article2 {
     max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
-  .container, .carrusel, .sectionM__article2, .sectionM__article {
+  .container, .carrusel, .sectionM__article2, .sectionM__article, .sectionB__article2 {
     max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
-  .container, .carrusel, .sectionM__article2, .sectionM__article {
+  .container, .carrusel, .sectionM__article2, .sectionM__article, .sectionB__article2 {
     max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
-  .container, .carrusel, .sectionM__article2, .sectionM__article {
+  .container, .carrusel, .sectionM__article2, .sectionM__article, .sectionB__article2 {
     max-width: 1140px;
   }
 }
 
-.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .header, .footer, .sectionM {
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .header, .footer, .sectionM, .sectionB {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -944,25 +944,25 @@ pre code {
 }
 
 @media (min-width: 576px) {
-  .container, .carrusel, .sectionM__article2, .sectionM__article, .container-sm {
+  .container, .carrusel, .sectionM__article2, .sectionM__article, .sectionB__article2, .container-sm {
     max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
-  .container, .carrusel, .sectionM__article2, .sectionM__article, .container-sm, .container-md {
+  .container, .carrusel, .sectionM__article2, .sectionM__article, .sectionB__article2, .container-sm, .container-md {
     max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
-  .container, .carrusel, .sectionM__article2, .sectionM__article, .container-sm, .container-md, .container-lg {
+  .container, .carrusel, .sectionM__article2, .sectionM__article, .sectionB__article2, .container-sm, .container-md, .container-lg {
     max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
-  .container, .carrusel, .sectionM__article2, .sectionM__article, .container-sm, .container-md, .container-lg, .container-xl {
+  .container, .carrusel, .sectionM__article2, .sectionM__article, .sectionB__article2, .container-sm, .container-md, .container-lg, .container-xl {
     max-width: 1140px;
   }
 }
@@ -4495,9 +4495,9 @@ input[type="button"].btn-block {
   padding: 0.5rem 1rem;
 }
 
-.navbar .container, .header__nav .container, .navbar .carrusel, .header__nav .carrusel, .navbar .sectionM__article2, .header__nav .sectionM__article2, .navbar .sectionM__article, .header__nav .sectionM__article,
+.navbar .container, .header__nav .container, .navbar .carrusel, .header__nav .carrusel, .navbar .sectionM__article2, .header__nav .sectionM__article2, .navbar .sectionM__article, .header__nav .sectionM__article, .navbar .sectionB__article2, .header__nav .sectionB__article2,
 .navbar .container-fluid,
-.header__nav .container-fluid, .navbar .container-sm, .header__nav .container-sm, .navbar .container-md, .header__nav .container-md, .navbar .container-lg, .header__nav .container-lg, .navbar .container-xl, .header__nav .container-xl, .navbar .header, .header__nav .header, .navbar .footer, .header__nav .footer, .navbar .sectionM, .header__nav .sectionM {
+.header__nav .container-fluid, .navbar .container-sm, .header__nav .container-sm, .navbar .container-md, .header__nav .container-md, .navbar .container-lg, .header__nav .container-lg, .navbar .container-xl, .header__nav .container-xl, .navbar .header, .header__nav .header, .navbar .footer, .header__nav .footer, .navbar .sectionM, .header__nav .sectionM, .navbar .sectionB, .header__nav .sectionB {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -4572,11 +4572,11 @@ input[type="button"].btn-block {
 }
 
 @media (max-width: 575.98px) {
-  .navbar-expand-sm > .container, .header__nav .navbar-expand-sm > .container, .navbar-expand-sm .header__nav > .container, .header__nav > .container, .navbar-expand-sm > .carrusel, .header__nav .navbar-expand-sm > .carrusel, .navbar-expand-sm .header__nav > .carrusel, .header__nav > .carrusel, .navbar-expand-sm > .sectionM__article2, .header__nav .navbar-expand-sm > .sectionM__article2, .navbar-expand-sm .header__nav > .sectionM__article2, .header__nav > .sectionM__article2, .navbar-expand-sm > .sectionM__article, .header__nav .navbar-expand-sm > .sectionM__article, .navbar-expand-sm .header__nav > .sectionM__article, .header__nav > .sectionM__article,
+  .navbar-expand-sm > .container, .header__nav .navbar-expand-sm > .container, .navbar-expand-sm .header__nav > .container, .header__nav > .container, .navbar-expand-sm > .carrusel, .header__nav .navbar-expand-sm > .carrusel, .navbar-expand-sm .header__nav > .carrusel, .header__nav > .carrusel, .navbar-expand-sm > .sectionM__article2, .header__nav .navbar-expand-sm > .sectionM__article2, .navbar-expand-sm .header__nav > .sectionM__article2, .header__nav > .sectionM__article2, .navbar-expand-sm > .sectionM__article, .header__nav .navbar-expand-sm > .sectionM__article, .navbar-expand-sm .header__nav > .sectionM__article, .header__nav > .sectionM__article, .navbar-expand-sm > .sectionB__article2, .header__nav .navbar-expand-sm > .sectionB__article2, .navbar-expand-sm .header__nav > .sectionB__article2, .header__nav > .sectionB__article2,
   .navbar-expand-sm > .container-fluid,
   .header__nav .navbar-expand-sm > .container-fluid,
   .navbar-expand-sm .header__nav > .container-fluid,
-  .header__nav > .container-fluid, .navbar-expand-sm > .container-sm, .header__nav .navbar-expand-sm > .container-sm, .navbar-expand-sm .header__nav > .container-sm, .header__nav > .container-sm, .navbar-expand-sm > .container-md, .header__nav .navbar-expand-sm > .container-md, .navbar-expand-sm .header__nav > .container-md, .header__nav > .container-md, .navbar-expand-sm > .container-lg, .header__nav .navbar-expand-sm > .container-lg, .navbar-expand-sm .header__nav > .container-lg, .header__nav > .container-lg, .navbar-expand-sm > .container-xl, .header__nav .navbar-expand-sm > .container-xl, .navbar-expand-sm .header__nav > .container-xl, .header__nav > .container-xl, .navbar-expand-sm > .header, .header__nav .navbar-expand-sm > .header, .navbar-expand-sm .header__nav > .header, .header__nav > .header, .navbar-expand-sm > .footer, .header__nav .navbar-expand-sm > .footer, .navbar-expand-sm .header__nav > .footer, .header__nav > .footer, .navbar-expand-sm > .sectionM, .header__nav .navbar-expand-sm > .sectionM, .navbar-expand-sm .header__nav > .sectionM, .header__nav > .sectionM {
+  .header__nav > .container-fluid, .navbar-expand-sm > .container-sm, .header__nav .navbar-expand-sm > .container-sm, .navbar-expand-sm .header__nav > .container-sm, .header__nav > .container-sm, .navbar-expand-sm > .container-md, .header__nav .navbar-expand-sm > .container-md, .navbar-expand-sm .header__nav > .container-md, .header__nav > .container-md, .navbar-expand-sm > .container-lg, .header__nav .navbar-expand-sm > .container-lg, .navbar-expand-sm .header__nav > .container-lg, .header__nav > .container-lg, .navbar-expand-sm > .container-xl, .header__nav .navbar-expand-sm > .container-xl, .navbar-expand-sm .header__nav > .container-xl, .header__nav > .container-xl, .navbar-expand-sm > .header, .header__nav .navbar-expand-sm > .header, .navbar-expand-sm .header__nav > .header, .header__nav > .header, .navbar-expand-sm > .footer, .header__nav .navbar-expand-sm > .footer, .navbar-expand-sm .header__nav > .footer, .header__nav > .footer, .navbar-expand-sm > .sectionM, .header__nav .navbar-expand-sm > .sectionM, .navbar-expand-sm .header__nav > .sectionM, .header__nav > .sectionM, .navbar-expand-sm > .sectionB, .header__nav .navbar-expand-sm > .sectionB, .navbar-expand-sm .header__nav > .sectionB, .header__nav > .sectionB {
     padding-right: 0;
     padding-left: 0;
   }
@@ -4597,11 +4597,11 @@ input[type="button"].btn-block {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
-  .navbar-expand-sm > .container, .header__nav .navbar-expand-sm > .container, .navbar-expand-sm .header__nav > .container, .header__nav > .container, .navbar-expand-sm > .carrusel, .header__nav .navbar-expand-sm > .carrusel, .navbar-expand-sm .header__nav > .carrusel, .header__nav > .carrusel, .navbar-expand-sm > .sectionM__article2, .header__nav .navbar-expand-sm > .sectionM__article2, .navbar-expand-sm .header__nav > .sectionM__article2, .header__nav > .sectionM__article2, .navbar-expand-sm > .sectionM__article, .header__nav .navbar-expand-sm > .sectionM__article, .navbar-expand-sm .header__nav > .sectionM__article, .header__nav > .sectionM__article,
+  .navbar-expand-sm > .container, .header__nav .navbar-expand-sm > .container, .navbar-expand-sm .header__nav > .container, .header__nav > .container, .navbar-expand-sm > .carrusel, .header__nav .navbar-expand-sm > .carrusel, .navbar-expand-sm .header__nav > .carrusel, .header__nav > .carrusel, .navbar-expand-sm > .sectionM__article2, .header__nav .navbar-expand-sm > .sectionM__article2, .navbar-expand-sm .header__nav > .sectionM__article2, .header__nav > .sectionM__article2, .navbar-expand-sm > .sectionM__article, .header__nav .navbar-expand-sm > .sectionM__article, .navbar-expand-sm .header__nav > .sectionM__article, .header__nav > .sectionM__article, .navbar-expand-sm > .sectionB__article2, .header__nav .navbar-expand-sm > .sectionB__article2, .navbar-expand-sm .header__nav > .sectionB__article2, .header__nav > .sectionB__article2,
   .navbar-expand-sm > .container-fluid,
   .header__nav .navbar-expand-sm > .container-fluid,
   .navbar-expand-sm .header__nav > .container-fluid,
-  .header__nav > .container-fluid, .navbar-expand-sm > .container-sm, .header__nav .navbar-expand-sm > .container-sm, .navbar-expand-sm .header__nav > .container-sm, .header__nav > .container-sm, .navbar-expand-sm > .container-md, .header__nav .navbar-expand-sm > .container-md, .navbar-expand-sm .header__nav > .container-md, .header__nav > .container-md, .navbar-expand-sm > .container-lg, .header__nav .navbar-expand-sm > .container-lg, .navbar-expand-sm .header__nav > .container-lg, .header__nav > .container-lg, .navbar-expand-sm > .container-xl, .header__nav .navbar-expand-sm > .container-xl, .navbar-expand-sm .header__nav > .container-xl, .header__nav > .container-xl, .navbar-expand-sm > .header, .header__nav .navbar-expand-sm > .header, .navbar-expand-sm .header__nav > .header, .header__nav > .header, .navbar-expand-sm > .footer, .header__nav .navbar-expand-sm > .footer, .navbar-expand-sm .header__nav > .footer, .header__nav > .footer, .navbar-expand-sm > .sectionM, .header__nav .navbar-expand-sm > .sectionM, .navbar-expand-sm .header__nav > .sectionM, .header__nav > .sectionM {
+  .header__nav > .container-fluid, .navbar-expand-sm > .container-sm, .header__nav .navbar-expand-sm > .container-sm, .navbar-expand-sm .header__nav > .container-sm, .header__nav > .container-sm, .navbar-expand-sm > .container-md, .header__nav .navbar-expand-sm > .container-md, .navbar-expand-sm .header__nav > .container-md, .header__nav > .container-md, .navbar-expand-sm > .container-lg, .header__nav .navbar-expand-sm > .container-lg, .navbar-expand-sm .header__nav > .container-lg, .header__nav > .container-lg, .navbar-expand-sm > .container-xl, .header__nav .navbar-expand-sm > .container-xl, .navbar-expand-sm .header__nav > .container-xl, .header__nav > .container-xl, .navbar-expand-sm > .header, .header__nav .navbar-expand-sm > .header, .navbar-expand-sm .header__nav > .header, .header__nav > .header, .navbar-expand-sm > .footer, .header__nav .navbar-expand-sm > .footer, .navbar-expand-sm .header__nav > .footer, .header__nav > .footer, .navbar-expand-sm > .sectionM, .header__nav .navbar-expand-sm > .sectionM, .navbar-expand-sm .header__nav > .sectionM, .header__nav > .sectionM, .navbar-expand-sm > .sectionB, .header__nav .navbar-expand-sm > .sectionB, .navbar-expand-sm .header__nav > .sectionB, .header__nav > .sectionB {
     flex-wrap: nowrap;
   }
   .navbar-expand-sm .navbar-collapse, .header__nav .navbar-collapse, .navbar-expand-sm .header__nav__text, .header__nav .header__nav__text {
@@ -4614,11 +4614,11 @@ input[type="button"].btn-block {
 }
 
 @media (max-width: 767.98px) {
-  .navbar-expand-md > .container, .header__nav .navbar-expand-md > .container, .navbar-expand-md .header__nav > .container, .header__nav > .container, .navbar-expand-md > .carrusel, .header__nav .navbar-expand-md > .carrusel, .navbar-expand-md .header__nav > .carrusel, .header__nav > .carrusel, .navbar-expand-md > .sectionM__article2, .header__nav .navbar-expand-md > .sectionM__article2, .navbar-expand-md .header__nav > .sectionM__article2, .header__nav > .sectionM__article2, .navbar-expand-md > .sectionM__article, .header__nav .navbar-expand-md > .sectionM__article, .navbar-expand-md .header__nav > .sectionM__article, .header__nav > .sectionM__article,
+  .navbar-expand-md > .container, .header__nav .navbar-expand-md > .container, .navbar-expand-md .header__nav > .container, .header__nav > .container, .navbar-expand-md > .carrusel, .header__nav .navbar-expand-md > .carrusel, .navbar-expand-md .header__nav > .carrusel, .header__nav > .carrusel, .navbar-expand-md > .sectionM__article2, .header__nav .navbar-expand-md > .sectionM__article2, .navbar-expand-md .header__nav > .sectionM__article2, .header__nav > .sectionM__article2, .navbar-expand-md > .sectionM__article, .header__nav .navbar-expand-md > .sectionM__article, .navbar-expand-md .header__nav > .sectionM__article, .header__nav > .sectionM__article, .navbar-expand-md > .sectionB__article2, .header__nav .navbar-expand-md > .sectionB__article2, .navbar-expand-md .header__nav > .sectionB__article2, .header__nav > .sectionB__article2,
   .navbar-expand-md > .container-fluid,
   .header__nav .navbar-expand-md > .container-fluid,
   .navbar-expand-md .header__nav > .container-fluid,
-  .header__nav > .container-fluid, .navbar-expand-md > .container-sm, .header__nav .navbar-expand-md > .container-sm, .navbar-expand-md .header__nav > .container-sm, .header__nav > .container-sm, .navbar-expand-md > .container-md, .header__nav .navbar-expand-md > .container-md, .navbar-expand-md .header__nav > .container-md, .header__nav > .container-md, .navbar-expand-md > .container-lg, .header__nav .navbar-expand-md > .container-lg, .navbar-expand-md .header__nav > .container-lg, .header__nav > .container-lg, .navbar-expand-md > .container-xl, .header__nav .navbar-expand-md > .container-xl, .navbar-expand-md .header__nav > .container-xl, .header__nav > .container-xl, .navbar-expand-md > .header, .header__nav .navbar-expand-md > .header, .navbar-expand-md .header__nav > .header, .header__nav > .header, .navbar-expand-md > .footer, .header__nav .navbar-expand-md > .footer, .navbar-expand-md .header__nav > .footer, .header__nav > .footer, .navbar-expand-md > .sectionM, .header__nav .navbar-expand-md > .sectionM, .navbar-expand-md .header__nav > .sectionM, .header__nav > .sectionM {
+  .header__nav > .container-fluid, .navbar-expand-md > .container-sm, .header__nav .navbar-expand-md > .container-sm, .navbar-expand-md .header__nav > .container-sm, .header__nav > .container-sm, .navbar-expand-md > .container-md, .header__nav .navbar-expand-md > .container-md, .navbar-expand-md .header__nav > .container-md, .header__nav > .container-md, .navbar-expand-md > .container-lg, .header__nav .navbar-expand-md > .container-lg, .navbar-expand-md .header__nav > .container-lg, .header__nav > .container-lg, .navbar-expand-md > .container-xl, .header__nav .navbar-expand-md > .container-xl, .navbar-expand-md .header__nav > .container-xl, .header__nav > .container-xl, .navbar-expand-md > .header, .header__nav .navbar-expand-md > .header, .navbar-expand-md .header__nav > .header, .header__nav > .header, .navbar-expand-md > .footer, .header__nav .navbar-expand-md > .footer, .navbar-expand-md .header__nav > .footer, .header__nav > .footer, .navbar-expand-md > .sectionM, .header__nav .navbar-expand-md > .sectionM, .navbar-expand-md .header__nav > .sectionM, .header__nav > .sectionM, .navbar-expand-md > .sectionB, .header__nav .navbar-expand-md > .sectionB, .navbar-expand-md .header__nav > .sectionB, .header__nav > .sectionB {
     padding-right: 0;
     padding-left: 0;
   }
@@ -4639,11 +4639,11 @@ input[type="button"].btn-block {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
-  .navbar-expand-md > .container, .header__nav .navbar-expand-md > .container, .navbar-expand-md .header__nav > .container, .header__nav > .container, .navbar-expand-md > .carrusel, .header__nav .navbar-expand-md > .carrusel, .navbar-expand-md .header__nav > .carrusel, .header__nav > .carrusel, .navbar-expand-md > .sectionM__article2, .header__nav .navbar-expand-md > .sectionM__article2, .navbar-expand-md .header__nav > .sectionM__article2, .header__nav > .sectionM__article2, .navbar-expand-md > .sectionM__article, .header__nav .navbar-expand-md > .sectionM__article, .navbar-expand-md .header__nav > .sectionM__article, .header__nav > .sectionM__article,
+  .navbar-expand-md > .container, .header__nav .navbar-expand-md > .container, .navbar-expand-md .header__nav > .container, .header__nav > .container, .navbar-expand-md > .carrusel, .header__nav .navbar-expand-md > .carrusel, .navbar-expand-md .header__nav > .carrusel, .header__nav > .carrusel, .navbar-expand-md > .sectionM__article2, .header__nav .navbar-expand-md > .sectionM__article2, .navbar-expand-md .header__nav > .sectionM__article2, .header__nav > .sectionM__article2, .navbar-expand-md > .sectionM__article, .header__nav .navbar-expand-md > .sectionM__article, .navbar-expand-md .header__nav > .sectionM__article, .header__nav > .sectionM__article, .navbar-expand-md > .sectionB__article2, .header__nav .navbar-expand-md > .sectionB__article2, .navbar-expand-md .header__nav > .sectionB__article2, .header__nav > .sectionB__article2,
   .navbar-expand-md > .container-fluid,
   .header__nav .navbar-expand-md > .container-fluid,
   .navbar-expand-md .header__nav > .container-fluid,
-  .header__nav > .container-fluid, .navbar-expand-md > .container-sm, .header__nav .navbar-expand-md > .container-sm, .navbar-expand-md .header__nav > .container-sm, .header__nav > .container-sm, .navbar-expand-md > .container-md, .header__nav .navbar-expand-md > .container-md, .navbar-expand-md .header__nav > .container-md, .header__nav > .container-md, .navbar-expand-md > .container-lg, .header__nav .navbar-expand-md > .container-lg, .navbar-expand-md .header__nav > .container-lg, .header__nav > .container-lg, .navbar-expand-md > .container-xl, .header__nav .navbar-expand-md > .container-xl, .navbar-expand-md .header__nav > .container-xl, .header__nav > .container-xl, .navbar-expand-md > .header, .header__nav .navbar-expand-md > .header, .navbar-expand-md .header__nav > .header, .header__nav > .header, .navbar-expand-md > .footer, .header__nav .navbar-expand-md > .footer, .navbar-expand-md .header__nav > .footer, .header__nav > .footer, .navbar-expand-md > .sectionM, .header__nav .navbar-expand-md > .sectionM, .navbar-expand-md .header__nav > .sectionM, .header__nav > .sectionM {
+  .header__nav > .container-fluid, .navbar-expand-md > .container-sm, .header__nav .navbar-expand-md > .container-sm, .navbar-expand-md .header__nav > .container-sm, .header__nav > .container-sm, .navbar-expand-md > .container-md, .header__nav .navbar-expand-md > .container-md, .navbar-expand-md .header__nav > .container-md, .header__nav > .container-md, .navbar-expand-md > .container-lg, .header__nav .navbar-expand-md > .container-lg, .navbar-expand-md .header__nav > .container-lg, .header__nav > .container-lg, .navbar-expand-md > .container-xl, .header__nav .navbar-expand-md > .container-xl, .navbar-expand-md .header__nav > .container-xl, .header__nav > .container-xl, .navbar-expand-md > .header, .header__nav .navbar-expand-md > .header, .navbar-expand-md .header__nav > .header, .header__nav > .header, .navbar-expand-md > .footer, .header__nav .navbar-expand-md > .footer, .navbar-expand-md .header__nav > .footer, .header__nav > .footer, .navbar-expand-md > .sectionM, .header__nav .navbar-expand-md > .sectionM, .navbar-expand-md .header__nav > .sectionM, .header__nav > .sectionM, .navbar-expand-md > .sectionB, .header__nav .navbar-expand-md > .sectionB, .navbar-expand-md .header__nav > .sectionB, .header__nav > .sectionB {
     flex-wrap: nowrap;
   }
   .navbar-expand-md .navbar-collapse, .header__nav .navbar-collapse, .navbar-expand-md .header__nav__text, .header__nav .header__nav__text {
@@ -4656,11 +4656,11 @@ input[type="button"].btn-block {
 }
 
 @media (max-width: 991.98px) {
-  .navbar-expand-lg > .container, .header__nav .navbar-expand-lg > .container, .navbar-expand-lg .header__nav > .container, .header__nav > .container, .navbar-expand-lg > .carrusel, .header__nav .navbar-expand-lg > .carrusel, .navbar-expand-lg .header__nav > .carrusel, .header__nav > .carrusel, .navbar-expand-lg > .sectionM__article2, .header__nav .navbar-expand-lg > .sectionM__article2, .navbar-expand-lg .header__nav > .sectionM__article2, .header__nav > .sectionM__article2, .navbar-expand-lg > .sectionM__article, .header__nav .navbar-expand-lg > .sectionM__article, .navbar-expand-lg .header__nav > .sectionM__article, .header__nav > .sectionM__article,
+  .navbar-expand-lg > .container, .header__nav .navbar-expand-lg > .container, .navbar-expand-lg .header__nav > .container, .header__nav > .container, .navbar-expand-lg > .carrusel, .header__nav .navbar-expand-lg > .carrusel, .navbar-expand-lg .header__nav > .carrusel, .header__nav > .carrusel, .navbar-expand-lg > .sectionM__article2, .header__nav .navbar-expand-lg > .sectionM__article2, .navbar-expand-lg .header__nav > .sectionM__article2, .header__nav > .sectionM__article2, .navbar-expand-lg > .sectionM__article, .header__nav .navbar-expand-lg > .sectionM__article, .navbar-expand-lg .header__nav > .sectionM__article, .header__nav > .sectionM__article, .navbar-expand-lg > .sectionB__article2, .header__nav .navbar-expand-lg > .sectionB__article2, .navbar-expand-lg .header__nav > .sectionB__article2, .header__nav > .sectionB__article2,
   .navbar-expand-lg > .container-fluid,
   .header__nav .navbar-expand-lg > .container-fluid,
   .navbar-expand-lg .header__nav > .container-fluid,
-  .header__nav > .container-fluid, .navbar-expand-lg > .container-sm, .header__nav .navbar-expand-lg > .container-sm, .navbar-expand-lg .header__nav > .container-sm, .header__nav > .container-sm, .navbar-expand-lg > .container-md, .header__nav .navbar-expand-lg > .container-md, .navbar-expand-lg .header__nav > .container-md, .header__nav > .container-md, .navbar-expand-lg > .container-lg, .header__nav .navbar-expand-lg > .container-lg, .navbar-expand-lg .header__nav > .container-lg, .header__nav > .container-lg, .navbar-expand-lg > .container-xl, .header__nav .navbar-expand-lg > .container-xl, .navbar-expand-lg .header__nav > .container-xl, .header__nav > .container-xl, .navbar-expand-lg > .header, .header__nav .navbar-expand-lg > .header, .navbar-expand-lg .header__nav > .header, .header__nav > .header, .navbar-expand-lg > .footer, .header__nav .navbar-expand-lg > .footer, .navbar-expand-lg .header__nav > .footer, .header__nav > .footer, .navbar-expand-lg > .sectionM, .header__nav .navbar-expand-lg > .sectionM, .navbar-expand-lg .header__nav > .sectionM, .header__nav > .sectionM {
+  .header__nav > .container-fluid, .navbar-expand-lg > .container-sm, .header__nav .navbar-expand-lg > .container-sm, .navbar-expand-lg .header__nav > .container-sm, .header__nav > .container-sm, .navbar-expand-lg > .container-md, .header__nav .navbar-expand-lg > .container-md, .navbar-expand-lg .header__nav > .container-md, .header__nav > .container-md, .navbar-expand-lg > .container-lg, .header__nav .navbar-expand-lg > .container-lg, .navbar-expand-lg .header__nav > .container-lg, .header__nav > .container-lg, .navbar-expand-lg > .container-xl, .header__nav .navbar-expand-lg > .container-xl, .navbar-expand-lg .header__nav > .container-xl, .header__nav > .container-xl, .navbar-expand-lg > .header, .header__nav .navbar-expand-lg > .header, .navbar-expand-lg .header__nav > .header, .header__nav > .header, .navbar-expand-lg > .footer, .header__nav .navbar-expand-lg > .footer, .navbar-expand-lg .header__nav > .footer, .header__nav > .footer, .navbar-expand-lg > .sectionM, .header__nav .navbar-expand-lg > .sectionM, .navbar-expand-lg .header__nav > .sectionM, .header__nav > .sectionM, .navbar-expand-lg > .sectionB, .header__nav .navbar-expand-lg > .sectionB, .navbar-expand-lg .header__nav > .sectionB, .header__nav > .sectionB {
     padding-right: 0;
     padding-left: 0;
   }
@@ -4681,11 +4681,11 @@ input[type="button"].btn-block {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
-  .navbar-expand-lg > .container, .header__nav .navbar-expand-lg > .container, .navbar-expand-lg .header__nav > .container, .header__nav > .container, .navbar-expand-lg > .carrusel, .header__nav .navbar-expand-lg > .carrusel, .navbar-expand-lg .header__nav > .carrusel, .header__nav > .carrusel, .navbar-expand-lg > .sectionM__article2, .header__nav .navbar-expand-lg > .sectionM__article2, .navbar-expand-lg .header__nav > .sectionM__article2, .header__nav > .sectionM__article2, .navbar-expand-lg > .sectionM__article, .header__nav .navbar-expand-lg > .sectionM__article, .navbar-expand-lg .header__nav > .sectionM__article, .header__nav > .sectionM__article,
+  .navbar-expand-lg > .container, .header__nav .navbar-expand-lg > .container, .navbar-expand-lg .header__nav > .container, .header__nav > .container, .navbar-expand-lg > .carrusel, .header__nav .navbar-expand-lg > .carrusel, .navbar-expand-lg .header__nav > .carrusel, .header__nav > .carrusel, .navbar-expand-lg > .sectionM__article2, .header__nav .navbar-expand-lg > .sectionM__article2, .navbar-expand-lg .header__nav > .sectionM__article2, .header__nav > .sectionM__article2, .navbar-expand-lg > .sectionM__article, .header__nav .navbar-expand-lg > .sectionM__article, .navbar-expand-lg .header__nav > .sectionM__article, .header__nav > .sectionM__article, .navbar-expand-lg > .sectionB__article2, .header__nav .navbar-expand-lg > .sectionB__article2, .navbar-expand-lg .header__nav > .sectionB__article2, .header__nav > .sectionB__article2,
   .navbar-expand-lg > .container-fluid,
   .header__nav .navbar-expand-lg > .container-fluid,
   .navbar-expand-lg .header__nav > .container-fluid,
-  .header__nav > .container-fluid, .navbar-expand-lg > .container-sm, .header__nav .navbar-expand-lg > .container-sm, .navbar-expand-lg .header__nav > .container-sm, .header__nav > .container-sm, .navbar-expand-lg > .container-md, .header__nav .navbar-expand-lg > .container-md, .navbar-expand-lg .header__nav > .container-md, .header__nav > .container-md, .navbar-expand-lg > .container-lg, .header__nav .navbar-expand-lg > .container-lg, .navbar-expand-lg .header__nav > .container-lg, .header__nav > .container-lg, .navbar-expand-lg > .container-xl, .header__nav .navbar-expand-lg > .container-xl, .navbar-expand-lg .header__nav > .container-xl, .header__nav > .container-xl, .navbar-expand-lg > .header, .header__nav .navbar-expand-lg > .header, .navbar-expand-lg .header__nav > .header, .header__nav > .header, .navbar-expand-lg > .footer, .header__nav .navbar-expand-lg > .footer, .navbar-expand-lg .header__nav > .footer, .header__nav > .footer, .navbar-expand-lg > .sectionM, .header__nav .navbar-expand-lg > .sectionM, .navbar-expand-lg .header__nav > .sectionM, .header__nav > .sectionM {
+  .header__nav > .container-fluid, .navbar-expand-lg > .container-sm, .header__nav .navbar-expand-lg > .container-sm, .navbar-expand-lg .header__nav > .container-sm, .header__nav > .container-sm, .navbar-expand-lg > .container-md, .header__nav .navbar-expand-lg > .container-md, .navbar-expand-lg .header__nav > .container-md, .header__nav > .container-md, .navbar-expand-lg > .container-lg, .header__nav .navbar-expand-lg > .container-lg, .navbar-expand-lg .header__nav > .container-lg, .header__nav > .container-lg, .navbar-expand-lg > .container-xl, .header__nav .navbar-expand-lg > .container-xl, .navbar-expand-lg .header__nav > .container-xl, .header__nav > .container-xl, .navbar-expand-lg > .header, .header__nav .navbar-expand-lg > .header, .navbar-expand-lg .header__nav > .header, .header__nav > .header, .navbar-expand-lg > .footer, .header__nav .navbar-expand-lg > .footer, .navbar-expand-lg .header__nav > .footer, .header__nav > .footer, .navbar-expand-lg > .sectionM, .header__nav .navbar-expand-lg > .sectionM, .navbar-expand-lg .header__nav > .sectionM, .header__nav > .sectionM, .navbar-expand-lg > .sectionB, .header__nav .navbar-expand-lg > .sectionB, .navbar-expand-lg .header__nav > .sectionB, .header__nav > .sectionB {
     flex-wrap: nowrap;
   }
   .navbar-expand-lg .navbar-collapse, .header__nav .navbar-collapse, .navbar-expand-lg .header__nav__text, .header__nav .header__nav__text {
@@ -4698,8 +4698,8 @@ input[type="button"].btn-block {
 }
 
 @media (max-width: 1199.98px) {
-  .navbar-expand-xl > .container, .navbar-expand-xl > .carrusel, .navbar-expand-xl > .sectionM__article2, .navbar-expand-xl > .sectionM__article,
-  .navbar-expand-xl > .container-fluid, .navbar-expand-xl > .container-sm, .navbar-expand-xl > .container-md, .navbar-expand-xl > .container-lg, .navbar-expand-xl > .container-xl, .navbar-expand-xl > .header, .navbar-expand-xl > .footer, .navbar-expand-xl > .sectionM {
+  .navbar-expand-xl > .container, .navbar-expand-xl > .carrusel, .navbar-expand-xl > .sectionM__article2, .navbar-expand-xl > .sectionM__article, .navbar-expand-xl > .sectionB__article2,
+  .navbar-expand-xl > .container-fluid, .navbar-expand-xl > .container-sm, .navbar-expand-xl > .container-md, .navbar-expand-xl > .container-lg, .navbar-expand-xl > .container-xl, .navbar-expand-xl > .header, .navbar-expand-xl > .footer, .navbar-expand-xl > .sectionM, .navbar-expand-xl > .sectionB {
     padding-right: 0;
     padding-left: 0;
   }
@@ -4720,8 +4720,8 @@ input[type="button"].btn-block {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
-  .navbar-expand-xl > .container, .navbar-expand-xl > .carrusel, .navbar-expand-xl > .sectionM__article2, .navbar-expand-xl > .sectionM__article,
-  .navbar-expand-xl > .container-fluid, .navbar-expand-xl > .container-sm, .navbar-expand-xl > .container-md, .navbar-expand-xl > .container-lg, .navbar-expand-xl > .container-xl, .navbar-expand-xl > .header, .navbar-expand-xl > .footer, .navbar-expand-xl > .sectionM {
+  .navbar-expand-xl > .container, .navbar-expand-xl > .carrusel, .navbar-expand-xl > .sectionM__article2, .navbar-expand-xl > .sectionM__article, .navbar-expand-xl > .sectionB__article2,
+  .navbar-expand-xl > .container-fluid, .navbar-expand-xl > .container-sm, .navbar-expand-xl > .container-md, .navbar-expand-xl > .container-lg, .navbar-expand-xl > .container-xl, .navbar-expand-xl > .header, .navbar-expand-xl > .footer, .navbar-expand-xl > .sectionM, .navbar-expand-xl > .sectionB {
     flex-wrap: nowrap;
   }
   .navbar-expand-xl .navbar-collapse, .navbar-expand-xl .header__nav__text {
@@ -4738,8 +4738,8 @@ input[type="button"].btn-block {
   justify-content: flex-start;
 }
 
-.navbar-expand > .container, .navbar-expand > .carrusel, .navbar-expand > .sectionM__article2, .navbar-expand > .sectionM__article,
-.navbar-expand > .container-fluid, .navbar-expand > .container-sm, .navbar-expand > .container-md, .navbar-expand > .container-lg, .navbar-expand > .container-xl, .navbar-expand > .header, .navbar-expand > .footer, .navbar-expand > .sectionM {
+.navbar-expand > .container, .navbar-expand > .carrusel, .navbar-expand > .sectionM__article2, .navbar-expand > .sectionM__article, .navbar-expand > .sectionB__article2,
+.navbar-expand > .container-fluid, .navbar-expand > .container-sm, .navbar-expand > .container-md, .navbar-expand > .container-lg, .navbar-expand > .container-xl, .navbar-expand > .header, .navbar-expand > .footer, .navbar-expand > .sectionM, .navbar-expand > .sectionB {
   padding-right: 0;
   padding-left: 0;
 }
@@ -4757,8 +4757,8 @@ input[type="button"].btn-block {
   padding-left: 0.5rem;
 }
 
-.navbar-expand > .container, .navbar-expand > .carrusel, .navbar-expand > .sectionM__article2, .navbar-expand > .sectionM__article,
-.navbar-expand > .container-fluid, .navbar-expand > .container-sm, .navbar-expand > .container-md, .navbar-expand > .container-lg, .navbar-expand > .container-xl, .navbar-expand > .header, .navbar-expand > .footer, .navbar-expand > .sectionM {
+.navbar-expand > .container, .navbar-expand > .carrusel, .navbar-expand > .sectionM__article2, .navbar-expand > .sectionM__article, .navbar-expand > .sectionB__article2,
+.navbar-expand > .container-fluid, .navbar-expand > .container-sm, .navbar-expand > .container-md, .navbar-expand > .container-lg, .navbar-expand > .container-xl, .navbar-expand > .header, .navbar-expand > .footer, .navbar-expand > .sectionM, .navbar-expand > .sectionB {
   flex-wrap: nowrap;
 }
 
@@ -8311,7 +8311,7 @@ button.bg-dark:focus {
   padding-top: 3rem !important;
 }
 
-.pr-5, .header__nav__redes, .sectionM__article2, .sectionM__article,
+.pr-5, .header__nav__redes, .sectionM__article2, .sectionM__article, .sectionB__article2,
 .px-5 {
   padding-right: 3rem !important;
 }
@@ -8321,7 +8321,7 @@ button.bg-dark:focus {
   padding-bottom: 3rem !important;
 }
 
-.pl-5, .sectionM__article2, .sectionM__article,
+.pl-5, .sectionM__article2, .sectionM__article, .sectionB__article2,
 .px-5 {
   padding-left: 3rem !important;
 }
@@ -10136,7 +10136,7 @@ a.text-dark:hover, a.text-dark:focus {
   body {
     min-width: 992px !important;
   }
-  .container, .carrusel, .sectionM__article2, .sectionM__article {
+  .container, .carrusel, .sectionM__article2, .sectionM__article, .sectionB__article2 {
     min-width: 992px !important;
   }
   .navbar, .header__nav {
@@ -10511,7 +10511,7 @@ html {
   box-sizing: inherit;
 }
 
-.container, .carrusel, .sectionM__article2, .sectionM__article {
+.container, .carrusel, .sectionM__article2, .sectionM__article, .sectionB__article2 {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -10520,30 +10520,30 @@ html {
 }
 
 @media (min-width: 576px) {
-  .container, .carrusel, .sectionM__article2, .sectionM__article {
+  .container, .carrusel, .sectionM__article2, .sectionM__article, .sectionB__article2 {
     max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
-  .container, .carrusel, .sectionM__article2, .sectionM__article {
+  .container, .carrusel, .sectionM__article2, .sectionM__article, .sectionB__article2 {
     max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
-  .container, .carrusel, .sectionM__article2, .sectionM__article {
+  .container, .carrusel, .sectionM__article2, .sectionM__article, .sectionB__article2 {
     max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
-  .container, .carrusel, .sectionM__article2, .sectionM__article {
+  .container, .carrusel, .sectionM__article2, .sectionM__article, .sectionB__article2 {
     max-width: 1140px;
   }
 }
 
-.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .header, .footer, .sectionM {
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .header, .footer, .sectionM, .sectionB {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -10552,25 +10552,25 @@ html {
 }
 
 @media (min-width: 576px) {
-  .container, .carrusel, .sectionM__article2, .sectionM__article, .container-sm {
+  .container, .carrusel, .sectionM__article2, .sectionM__article, .sectionB__article2, .container-sm {
     max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
-  .container, .carrusel, .sectionM__article2, .sectionM__article, .container-sm, .container-md {
+  .container, .carrusel, .sectionM__article2, .sectionM__article, .sectionB__article2, .container-sm, .container-md {
     max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
-  .container, .carrusel, .sectionM__article2, .sectionM__article, .container-sm, .container-md, .container-lg {
+  .container, .carrusel, .sectionM__article2, .sectionM__article, .sectionB__article2, .container-sm, .container-md, .container-lg {
     max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
-  .container, .carrusel, .sectionM__article2, .sectionM__article, .container-sm, .container-md, .container-lg, .container-xl {
+  .container, .carrusel, .sectionM__article2, .sectionM__article, .sectionB__article2, .container-sm, .container-md, .container-lg, .container-xl {
     max-width: 1140px;
   }
 }
@@ -12495,7 +12495,7 @@ html {
   padding-top: 3rem !important;
 }
 
-.pr-5, .header__nav__redes, .sectionM__article2, .sectionM__article,
+.pr-5, .header__nav__redes, .sectionM__article2, .sectionM__article, .sectionB__article2,
 .px-5 {
   padding-right: 3rem !important;
 }
@@ -12505,7 +12505,7 @@ html {
   padding-bottom: 3rem !important;
 }
 
-.pl-5, .sectionM__article2, .sectionM__article,
+.pl-5, .sectionM__article2, .sectionM__article, .sectionB__article2,
 .px-5 {
   padding-left: 3rem !important;
 }
@@ -14048,11 +14048,6 @@ html {
   font-size: 62.5%;
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
-}
-
-/* BEBIDAS */
-.textoBebida {
-  font-size: 1rem;
 }
 
 /* CONTACTOS */
