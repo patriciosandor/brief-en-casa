@@ -284,6 +284,17 @@
         }
     } 
     &__article{
+        @extend .container;
+        @extend .pl-5;
+        @extend .pr-5;
+        &__title{
+            @extend .mb-5;
+            @extend .text-center;
+            &__h2{
+                @extend .col-12;
+                @extend .display-2;
+            }
+        }
         &__div{
             @extend .row;
             &__div{
