@@ -1,0 +1,63 @@
+
+// MENUS PRINCIPAL
+
+  //SECTOR IMAGEN
+.header {
+    box-shadow: $color-shadow $size-shadow;
+    margin-bottom: 50rem;
+    position: fixed;
+    z-index: 100; 
+    &__nav{
+        width: $size-width;
+    //SECTOR LOGO
+        &__div{
+            &__img{
+                width: 15rem;
+                padding-left: 3rem;
+            }
+        } 
+        
+    //SECTOR REDES
+        &__redes{
+            width:$size-width;
+            height: 100%;
+            &__img{
+                width: 17%;
+            }
+        }
+    }
+    //SECTOR MENU
+    &__nav{
+        &__button{ 
+            &__span{
+                width: 4rem !important;
+                height: 4rem !important;
+            }
+        }
+        &__text{
+            height: $size-heigth;
+            &__ul{
+                width:$size-width;
+                &__li{              
+                    list-style: none;
+                    &__div{
+                        margin-top:2.5rem !important;
+                        width: 33rem;
+                        &:hover{
+                            background-color: white !important;
+                        }
+                        &__a {
+                            font-size: 2em;
+                            list-style: none; 
+                            margin: 2rem 0;
+                            &:hover{
+                                background-color: transparent !important; 
+                            }
+                        }
+                    }
+                }
+            } 
+        }
+    }
+}
+

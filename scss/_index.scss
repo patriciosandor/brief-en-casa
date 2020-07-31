@@ -1,0 +1,50 @@
+//--------------------------------------------------
+//--------------------------------------------------
+                //HEADER
+//--------------------------------------------------
+//--------------------------------------------------
+
+//--------------------------------------------------
+                //SECTOR VIDEO Y FOTO
+//--------------------------------------------------
+    //PARTE VIDEO Y FOTO
+    .index{
+        height: auto;
+        padding: 15rem 1rem 0rem 1rem;
+        
+        &__img{
+            filter: blur(6px);
+            width: $size-width;  
+        }
+
+        &__video1{
+            height:90%;
+            width: auto;
+            z-index: 4; 
+        }
+    }
+
+//--------------------------------------------------
+                //SECTOR CARRUSEL
+//--------------------------------------------------
+
+    .carrusel{
+        background-color:$color-fondo;
+        padding: 4rem;
+        &__article{
+            &__div{
+                box-shadow: $color-shadow $size-shadow;
+                width: 75% !important;
+            }
+        }
+    }
+    .carrusel__article__div__div__div__div{
+        a{
+            font-size: 2rem;
+            padding: 1rem 5rem;
+            border-radius: 0.5rem;
+            border: none;
+        }
+    }
+
+

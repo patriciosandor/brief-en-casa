@@ -1,0 +1,54 @@
+//--------------------------------------------------
+//--------------------------------------------------
+                    //FOOTER
+//--------------------------------------------------
+//--------------------------------------------------
+
+    .footer {
+        font-family: 'Open Sans', sans-serif;
+        width:$size-width;
+        background-color: rgb(51, 51, 51);
+    }
+
+//--------------------------------------------------
+                    //SECTOR TEXTO
+//--------------------------------------------------
+
+    .footer__section__article{
+        &__h2{
+            margin: 6rem 0rem 3rem 0rem;
+        }
+        &__div{
+            width: 50%;
+            margin: 0 auto; 
+            overflow: hidden;
+        }
+
+    //--------------------------------------------------
+                    //SECTOR TEXTO
+    //--------------------------------------------------
+
+        &__texto{
+            &__p{
+                height: 100%;
+                font-size: 1.8rem;
+                line-height: 5rem;
+                text-align: justify;
+                margin: 5rem 8rem 5rem 8rem;  
+                padding: 4rem 4rem 4rem 4rem;
+                border: solid black 0.5rem; 
+            }
+
+            &__ol{
+                height: 100%;
+                font-size: 1.8rem;
+                line-height: 4.7rem;
+                text-align: justify;
+                margin: 5rem 6rem 5rem 6rem;   
+                padding: 4rem 4rem 6rem 6rem;
+                border: solid black 0.5rem;
+            }
+        }
+
+    }
+
