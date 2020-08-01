@@ -483,3 +483,17 @@
                     //CONTACTOS
 //--------------------------------------------------
 //--------------------------------------------------
+.sectionC{
+    @extend .row;
+    @extend .d-flex;
+    @extend .justify-content-center;
+    &__article{
+        @extend .col-sm-12;
+        @extend .col-lg-6;
+    }
+
+    &__consulta{
+        @extend .col-sm-12;
+        @extend .col-lg-6;
+    }
+}

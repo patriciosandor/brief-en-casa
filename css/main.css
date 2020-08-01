@@ -1203,7 +1203,7 @@ pre code {
   }
 }
 
-.row, .header__nav, .footer__section, .footer__section__article__div, .sectionM__article__div, .sectionB__article__div, .sectionN__article {
+.row, .header__nav, .footer__section, .footer__section__article__div, .sectionM__article__div, .sectionB__article__div, .sectionN__article, .sectionC {
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
@@ -1222,7 +1222,7 @@ pre code {
 }
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .footer__section__article__div__div, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .footer__section__article__h2, .sectionM__article2__title__h2, .sectionM__article__title__h2, .sectionB__article2__title__h2, .sectionB__article__title__h2, .col,
-.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .header__nav__div, .header__nav__button, .header__nav__text, .header__nav__redes, .footer__section__article, .sectionM__article__div__div, .sectionB__article__div__div, .sectionN__article__div, .sectionN__article__div-texto-n, .col-sm,
+.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .header__nav__div, .header__nav__button, .header__nav__text, .header__nav__redes, .footer__section__article, .sectionM__article__div__div, .sectionB__article__div__div, .sectionN__article__div, .sectionN__article__div-texto-n, .sectionC__article, .sectionC__consulta, .col-sm,
 .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
 .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
 .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
@@ -1520,7 +1520,7 @@ pre code {
     flex: 0 0 91.66667%;
     max-width: 91.66667%;
   }
-  .col-sm-12, .header__nav__div, .header__nav__button, .header__nav__text, .header__nav__redes, .footer__section__article, .sectionM__article__div__div, .sectionB__article__div__div, .sectionN__article__div, .sectionN__article__div-texto-n {
+  .col-sm-12, .header__nav__div, .header__nav__button, .header__nav__text, .header__nav__redes, .footer__section__article, .sectionM__article__div__div, .sectionB__article__div__div, .sectionN__article__div, .sectionN__article__div-texto-n, .sectionC__article, .sectionC__consulta {
     flex: 0 0 100%;
     max-width: 100%;
   }
@@ -1830,7 +1830,7 @@ pre code {
     flex: 0 0 41.66667%;
     max-width: 41.66667%;
   }
-  .col-lg-6, .sectionM__article__div__div, .sectionN__article__div, .sectionN__article__div-texto-n {
+  .col-lg-6, .sectionM__article__div__div, .sectionN__article__div, .sectionN__article__div-texto-n, .sectionC__article, .sectionC__consulta {
     flex: 0 0 50%;
     max-width: 50%;
   }
@@ -7351,7 +7351,7 @@ button.bg-dark:focus {
   display: table-cell !important;
 }
 
-.d-flex, .header__nav__text__ul, .header__nav__redes, .index, .index__video2, .sectionM__article__div__div__div__div-texto-m__div, .sectionB__article__div__div__div__div-texto-b__div, .sectionN__article__div {
+.d-flex, .header__nav__text__ul, .header__nav__redes, .index, .index__video2, .sectionM__article__div__div__div__div-texto-m__div, .sectionB__article__div__div__div__div-texto-b__div, .sectionN__article__div, .sectionC {
   display: flex !important;
 }
 
@@ -7608,7 +7608,7 @@ button.bg-dark:focus {
   justify-content: flex-end !important;
 }
 
-.justify-content-center, .sectionM__article__div__div__div__div-texto-m__div, .sectionB__article__div__div__div__div-texto-b__div, .sectionN__article__div {
+.justify-content-center, .sectionM__article__div__div__div__div-texto-m__div, .sectionB__article__div__div__div__div-texto-b__div, .sectionN__article__div, .sectionC {
   justify-content: center !important;
 }
 
@@ -10870,7 +10870,7 @@ html {
   }
 }
 
-.row, .header__nav, .footer__section, .footer__section__article__div, .sectionM__article__div, .sectionB__article__div, .sectionN__article {
+.row, .header__nav, .footer__section, .footer__section__article__div, .sectionM__article__div, .sectionB__article__div, .sectionN__article, .sectionC {
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
@@ -10889,7 +10889,7 @@ html {
 }
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .footer__section__article__div__div, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .footer__section__article__h2, .sectionM__article2__title__h2, .sectionM__article__title__h2, .sectionB__article2__title__h2, .sectionB__article__title__h2, .col,
-.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .header__nav__div, .header__nav__button, .header__nav__text, .header__nav__redes, .footer__section__article, .sectionM__article__div__div, .sectionB__article__div__div, .sectionN__article__div, .sectionN__article__div-texto-n, .col-sm,
+.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .header__nav__div, .header__nav__button, .header__nav__text, .header__nav__redes, .footer__section__article, .sectionM__article__div__div, .sectionB__article__div__div, .sectionN__article__div, .sectionN__article__div-texto-n, .sectionC__article, .sectionC__consulta, .col-sm,
 .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
 .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
 .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
@@ -11187,7 +11187,7 @@ html {
     flex: 0 0 91.66667%;
     max-width: 91.66667%;
   }
-  .col-sm-12, .header__nav__div, .header__nav__button, .header__nav__text, .header__nav__redes, .footer__section__article, .sectionM__article__div__div, .sectionB__article__div__div, .sectionN__article__div, .sectionN__article__div-texto-n {
+  .col-sm-12, .header__nav__div, .header__nav__button, .header__nav__text, .header__nav__redes, .footer__section__article, .sectionM__article__div__div, .sectionB__article__div__div, .sectionN__article__div, .sectionN__article__div-texto-n, .sectionC__article, .sectionC__consulta {
     flex: 0 0 100%;
     max-width: 100%;
   }
@@ -11497,7 +11497,7 @@ html {
     flex: 0 0 41.66667%;
     max-width: 41.66667%;
   }
-  .col-lg-6, .sectionM__article__div__div, .sectionN__article__div, .sectionN__article__div-texto-n {
+  .col-lg-6, .sectionM__article__div__div, .sectionN__article__div, .sectionN__article__div-texto-n, .sectionC__article, .sectionC__consulta {
     flex: 0 0 50%;
     max-width: 50%;
   }
@@ -11803,7 +11803,7 @@ html {
   display: table-cell !important;
 }
 
-.d-flex, .header__nav__text__ul, .header__nav__redes, .index, .index__video2, .sectionM__article__div__div__div__div-texto-m__div, .sectionB__article__div__div__div__div-texto-b__div, .sectionN__article__div {
+.d-flex, .header__nav__text__ul, .header__nav__redes, .index, .index__video2, .sectionM__article__div__div__div__div-texto-m__div, .sectionB__article__div__div__div__div-texto-b__div, .sectionN__article__div, .sectionC {
   display: flex !important;
 }
 
@@ -12017,7 +12017,7 @@ html {
   justify-content: flex-end !important;
 }
 
-.justify-content-center, .sectionM__article__div__div__div__div-texto-m__div, .sectionB__article__div__div__div__div-texto-b__div, .sectionN__article__div {
+.justify-content-center, .sectionM__article__div__div__div__div-texto-m__div, .sectionB__article__div__div__div__div-texto-b__div, .sectionN__article__div, .sectionC {
   justify-content: center !important;
 }
 
