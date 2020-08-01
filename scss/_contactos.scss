@@ -1,0 +1,63 @@
+
+/* CONTACTOS */
+
+.sectionC{
+    &__article{
+        padding: 17rem 0rem 5rem 0rem;
+    }
+
+    &__consulta{
+        padding: 17rem 0rem 5rem 0rem;
+        &__form{
+            width: $size-width;
+            background-color: rgba(241, 241, 241, 0.938);
+            height: 62.5rem;
+            &__h2{
+                text-align: center;
+                padding-top: 2rem;
+            }
+            &__div{
+                margin: 0.5rem 0rem;
+                padding: 0rem 3rem;
+                &__label{
+                    font-size: 2rem;
+                    font-weight: lighter;
+                }
+                #formGroupExampleInput1{
+                    width:$size-width;
+                    height:4rem;
+                    font-size: 1.5rem;
+                }
+                #formGroupExampleInput2{
+                    width:$size-width;
+                    height: 4rem;
+                    font-size: 1.5rem;
+                }
+                #formGroupExampleInput3{
+                    width:$size-width;
+                    height: 4rem;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}
+
+
+    #validationTextarea{
+    width: 94%;
+    height: 10rem;
+    margin: 2rem 3rem;
+    padding: 0rem 1rem;
+    font-size: 1.5rem;
+}
+    #inputState{
+    width:$size-width;
+    height: 4rem;
+    font-size: 1.5rem;
+}
+
+.sectionC__consulta__form__btn a{
+    font-size: 1.8rem;
+    margin: 1rem;
+}

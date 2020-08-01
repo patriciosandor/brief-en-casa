@@ -330,3 +330,14 @@
                 //CONTACTOS
 //--------------------------------------------------
 //--------------------------------------------------
+
+@media (max-width: 768px) {
+    .sectionC{
+        &__article{
+            padding: 5rem 0 0 0 !important;
+        }
+        &__consulta{
+            padding: 5rem 0 0 0 !important;
+        }
+    }
+}
