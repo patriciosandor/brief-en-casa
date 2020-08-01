@@ -5,6 +5,7 @@
 @import"@media";
 @import"menu";
 @import"bebidas";
+@import"nosotros";
 @import"bootstrap";
 @import"bootstrap-reboot";
 @import"bootstrap-grid";
@@ -101,29 +102,5 @@ https://colorhunt.co/palette/169452 */
   }
 }
 
-/* NOSOTROS INICIO */
 
-.section__nosotros__div{
-  margin: 15rem 0 3rem 0;
-}
-
-.section__nosotros__div__h1{
-  text-align: center;
-}
-
-.section__nosotros__div__h2{
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 3rem;
-}
-
-.section__nosotros__div__p{
-  text-align: justify;
-  font-size: 1.6rem;
-}
-
-.section__nosotros__div__img{
-  width:$size-width;
-}
 

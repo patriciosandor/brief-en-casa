@@ -224,7 +224,7 @@
     margin: 2rem 0rem;
   }
   .header__nav__redes__img {
-    width: 8%;
+    width: 10%;
   }
 }
 
@@ -276,6 +276,54 @@
   .carrusel__article__div__div__div__div__a {
     font-size: 1.5rem;
     padding: 0.5rem 3.5rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .sectionM__article2 {
+    padding-top: 3rem !important;
+  }
+  .sectionM__article2__title__h2 {
+    font-size: 4rem !important;
+  }
+  .sectionM__article {
+    padding-top: 2rem !important;
+  }
+  .sectionM__article__title__h2 {
+    font-size: 4rem !important;
+  }
+  .sectionM__article__div__div__div {
+    height: 50rem !important;
+  }
+  .sectionM__article__div__div__div__div-texto-m__h2 {
+    font-size: 2.8rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .sectionB__article2 {
+    padding-top: 3rem !important;
+  }
+  .sectionB__article2__title__h2 {
+    font-size: 4rem !important;
+  }
+  .sectionB__article {
+    padding-top: 2rem !important;
+  }
+  .sectionB__article__title__h2 {
+    font-size: 4rem !important;
+  }
+  .sectionB__article__div__div__div__div-texto-b__h2 {
+    font-size: 2.8rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .sectionN__article__div {
+    margin: 5rem 0 0 0 !important;
+  }
+  .sectionN__article__div-texto-n {
+    margin: 4rem 0 !important;
   }
 }
 
@@ -441,6 +489,34 @@
   border-radius: 1rem;
   padding: 1.8rem;
   text-align: center;
+}
+
+.sectionN__article__div {
+  margin: 15rem 0 3rem 0;
+}
+
+.sectionN__article__div img {
+  width: 100%;
+}
+
+.sectionN__article__div-texto-n {
+  margin: 15rem 0 3rem 0;
+}
+
+.sectionN__article__div-texto-n__h1 {
+  text-align: center;
+}
+
+.sectionN__article__div-texto-n__h2 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.sectionN__article__div-texto-n__p {
+  text-align: justify;
+  font-size: 1.6rem;
 }
 
 /*!
@@ -14267,29 +14343,4 @@ html {
   .section__consulta {
     padding-top: 0.5rem;
   }
-}
-
-/* NOSOTROS INICIO */
-.section__nosotros__div {
-  margin: 15rem 0 3rem 0;
-}
-
-.section__nosotros__div__h1 {
-  text-align: center;
-}
-
-.section__nosotros__div__h2 {
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 3rem;
-}
-
-.section__nosotros__div__p {
-  text-align: justify;
-  font-size: 1.6rem;
-}
-
-.section__nosotros__div__img {
-  width: 100%;
 }
