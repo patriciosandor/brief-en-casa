@@ -14298,16 +14298,16 @@ html {
 
 @media (max-width: 768px) {
   .sectionB__article2 {
-    padding-top: 3rem !important;
+    padding-top: 3rem;
   }
   .sectionB__article2__title__h2 {
-    font-size: 4rem !important;
+    font-size: 4rem;
   }
   .sectionB__article {
-    padding-top: 2rem !important;
+    padding-top: 2rem;
   }
   .sectionB__article__title__h2 {
-    font-size: 4rem !important;
+    font-size: 4rem;
   }
   .sectionB__article__div__div__div__div-texto-b__h2 {
     font-size: 2.8rem !important;
@@ -14316,19 +14316,19 @@ html {
 
 @media (max-width: 768px) {
   .sectionN__article__div {
-    margin: 5rem 0 0 0 !important;
+    margin: 5rem 0 0 0;
   }
   .sectionN__article__div-texto-n {
-    margin: 4rem 0 !important;
+    margin: 4rem 0;
   }
 }
 
 @media (max-width: 768px) {
   .sectionC__article {
-    padding: 5rem 0 0 0 !important;
+    padding: 5rem 0 0 0;
   }
   .sectionC__consulta {
-    padding: 5rem 0 0 0 !important;
+    padding: 5rem 0 0 0;
   }
 }
 
