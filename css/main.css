@@ -14263,16 +14263,12 @@ html {
   .carrusel {
     padding: 4rem 0;
   }
-  .carrusel__article {
-    width: 100%;
-  }
   .carrusel__article__div {
-    width: 100%;
     margin: 0;
   }
   .carrusel__article__div__div__div__div__a {
     font-size: 1.5rem;
-    padding: 0.5rem 3.5rem !important;
+    padding: 0.5rem 3.5rem;
   }
 }
 
