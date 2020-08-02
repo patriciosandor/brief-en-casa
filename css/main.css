@@ -13816,7 +13816,7 @@ html {
 
 .carrusel__article__div {
   box-shadow: #979797 0.6rem 0.6rem 3rem 0.4rem;
-  width: 75% !important;
+  width: 75%;
 }
 
 .carrusel__article__div__div__div__div a {
@@ -13830,6 +13830,13 @@ html {
   font-family: 'Open Sans', sans-serif;
   width: 100%;
   background-color: #333333;
+}
+
+.footer__section__p {
+  font-size: 1.8rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 3rem;
 }
 
 .footer__section__article__h2 {
@@ -14264,6 +14271,7 @@ html {
     padding: 4rem 0;
   }
   .carrusel__article__div {
+    width: 100%;
     margin: 0;
   }
   .carrusel__article__div__div__div__div__a {
