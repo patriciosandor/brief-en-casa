@@ -14261,10 +14261,14 @@ html {
 
 @media (max-width: 768px) {
   .carrusel {
-    padding: 4rem 0 !important;
+    padding: 4rem 0;
+  }
+  .carrusel__article {
+    width: 100%;
   }
   .carrusel__article__div {
-    width: 100% !important;
+    width: 100%;
+    margin: 0;
   }
   .carrusel__article__div__div__div__div__a {
     font-size: 1.5rem;
