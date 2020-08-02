@@ -7980,7 +7980,7 @@ button.bg-dark:focus {
   padding: 1.5rem !important;
 }
 
-.pt-4,
+.pt-4, .footer__section__article__div,
 .py-4 {
   padding-top: 1.5rem !important;
 }
@@ -12164,7 +12164,7 @@ html {
   padding: 1.5rem !important;
 }
 
-.pt-4,
+.pt-4, .footer__section__article__div,
 .py-4 {
   padding-top: 1.5rem !important;
 }
@@ -13793,6 +13793,49 @@ html {
   background-color: transparent !important;
 }
 
+.footer {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  background-color: #333333;
+}
+
+.footer__section__p {
+  font-size: 1.8rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.footer__section__article__h2 {
+  margin: 6rem 0rem 3rem 0rem;
+}
+
+.footer__section__article__div {
+  width: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.footer__section__article__texto__p {
+  height: 100%;
+  font-size: 1.8rem;
+  line-height: 5rem;
+  text-align: justify;
+  margin: 5rem 8rem 5em 8rem;
+  padding: 4rem 4rem 9rem 4rem;
+  border: solid black 0.5rem;
+}
+
+.footer__section__article__texto__ol {
+  height: 100%;
+  font-size: 1.8rem;
+  line-height: 4.7rem;
+  text-align: justify;
+  margin: 5rem 6rem 5rem 6rem;
+  padding: 4rem 4rem 6rem 6rem;
+  border: solid black 0.5rem;
+}
+
 .index {
   height: auto;
   padding: 15rem 1rem 0rem 1rem;
@@ -13824,49 +13867,6 @@ html {
   padding: 1rem 5rem;
   border-radius: 0.5rem;
   border: none;
-}
-
-.footer {
-  font-family: 'Open Sans', sans-serif;
-  width: 100%;
-  background-color: #333333;
-}
-
-.footer__section__p {
-  font-size: 1.8rem;
-  color: white;
-  text-align: center;
-  margin-bottom: 3rem;
-}
-
-.footer__section__article__h2 {
-  margin: 6rem 0rem 3rem 0rem;
-}
-
-.footer__section__article__div {
-  width: 50%;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-.footer__section__article__texto__p {
-  height: 100%;
-  font-size: 1.8rem;
-  line-height: 5rem;
-  text-align: justify;
-  margin: 5rem 8rem 5rem 8rem;
-  padding: 4rem 4rem 4rem 4rem;
-  border: solid black 0.5rem;
-}
-
-.footer__section__article__texto__ol {
-  height: 100%;
-  font-size: 1.8rem;
-  line-height: 4.7rem;
-  text-align: justify;
-  margin: 5rem 6rem 5rem 6rem;
-  padding: 4rem 4rem 6rem 6rem;
-  border: solid black 0.5rem;
 }
 
 .sectionM {
@@ -14232,6 +14232,7 @@ html {
   .footer__section__article__div {
     width: 70%;
     margin: 0 auto;
+    padding: 0rem !important;
   }
 }
 

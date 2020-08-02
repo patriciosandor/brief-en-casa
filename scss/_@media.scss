@@ -144,7 +144,10 @@
     @media (max-width: 768px) {
         .footer__section__article__div {
         width:70%;
-        margin: 0 auto; } }
+        margin: 0 auto;
+        padding: 0rem !important;
+        }
+    }
     
     @media (max-width: 768px) {
         .footer__section__article__texto__p {
