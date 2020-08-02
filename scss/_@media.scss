@@ -16,7 +16,7 @@
 
             &__img {
                 width: 20rem;
-                padding: 0rem !important;
+                padding: 0rem;
             }
         }
     }
@@ -99,7 +99,7 @@
 //--------------------------------------------------
         .header__nav__text__ul__li {
             text-align: center;
-            padding: 1rem!important;
+            padding: 1rem;
 
             &__a{
                 font-size: 2.5rem;
@@ -113,12 +113,12 @@
 //--------------------------------------------------    
         .header__nav__text__ul__li__div{
             font-size: 1.8rem;
-            margin: 0.5rem 0 !important;
+            margin: 0.5rem 0;
             width: 100%;
 
             &__a{
                 font-size: 1.8rem;
-                margin: 1rem 0 !important;
+                margin: 1rem 0;
             }
         }
     }
@@ -224,19 +224,19 @@
     
     .sectionM{
         &__article2{
-            padding-top: 3rem !important;
+            padding-top: 3rem;
             &__title{
                 &__h2{
-                    font-size: 4rem !important;
+                    font-size: 4rem;
                 }
             }
         }
 
         &__article{
-            padding-top: 2rem !important;
+            padding-top: 2rem;
             &__title{
                 &__h2{
-                    font-size: 4rem !important;
+                    font-size: 4rem ;
                 }
             }
 //--------------------------------------------------
@@ -245,10 +245,15 @@
             &__div{
                 &__div{
                     &__div{
-                        height: 50rem !important;
+                        height: 50rem;
+                        &__div-foto-m{
+                            img{
+                                height: 35rem;
+                            }    
+                        }
                         &__div-texto-m{
                             &__h2{
-                                font-size: 2.8rem !important;
+                                font-size: 2.8rem;
                             }
                         }
                     }
