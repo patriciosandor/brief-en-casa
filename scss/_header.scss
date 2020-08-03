@@ -32,8 +32,8 @@
     &__nav{
         &__button{ 
             &__span{
-                width: 4rem !important;
-                height: 4rem !important;
+                width: 4rem;
+                height: 4rem;
             }
         }
         &__text{
@@ -43,17 +43,17 @@
                 &__li{              
                     list-style: none;
                     &__div{
-                        margin-top:2.5rem !important;
+                        margin-top:2.5rem;
                         width: 33rem;
                         &:hover{
-                            background-color: white !important;
+                            background-color: white ;
                         }
                         &__a {
                             font-size: 2em;
                             list-style: none; 
                             margin: 2rem 0;
                             &:hover{
-                                background-color: transparent !important; 
+                                background-color: transparent; 
                             }
                         }
                     }
