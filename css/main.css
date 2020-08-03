@@ -14129,7 +14129,7 @@ html {
   }
 }
 
-@media (min-width: 990px) {
+@media (min-width: 768px) {
   .header__nav__text__ul__li__a {
     font-size: 2.5rem;
     color: inherit;
@@ -14172,7 +14172,7 @@ html {
   }
 }
 
-@media (min-width: 720px) {
+@media (min-width: 768px) {
   .header__nav__text__ul__li__a {
     font-size: 2.5rem;
     color: inherit;
@@ -14183,7 +14183,7 @@ html {
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .header {
     position: static;
   }
@@ -14207,21 +14207,12 @@ html {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .header__nav__redes {
     margin: 2rem 0rem;
   }
   .header__nav__redes__img {
     width: 10%;
-  }
-}
-
-@media (max-width: 720px) {
-  .header__nav__redes {
-    margin: 2rem 0rem;
-  }
-  .header__nav__redes__img {
-    width: 7%;
   }
 }
 
@@ -14252,7 +14243,7 @@ html {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .index {
     padding: 4rem 1rem 0rem 1rem;
   }
@@ -14265,21 +14256,7 @@ html {
 }
 
 @media (max-width: 768px) {
-  .index {
-    padding: 4rem 1rem 0rem 1rem;
-  }
-  .index__video2 {
-    width: 70%;
-  }
-  .index__img {
-    display: none;
-  }
-}
-
-@media (max-width: 768px) {
   .carrusel {
-    background-color: white;
-    margin: 0 auto;
     padding: 4rem 0;
   }
   .carrusel__article__div {
