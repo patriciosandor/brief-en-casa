@@ -11,9 +11,11 @@
         width: $size-width;
     //SECTOR LOGO
         &__div{
-            &__img{
-                width: 15rem;
-                padding-left: 3rem;
+            &__a{
+                &__img{
+                    width: 15rem;
+                    padding-left: 3rem;
+                } 
             }
         } 
         

@@ -73,9 +73,10 @@
             @extend .col-sm-12;
             @extend .col-lg-2;
             @extend .m-0;
-
-            &__img{
-                @extend .img-fluid;
+            &__a{
+                &__img{
+                    @extend .img-fluid;
+                }
             }
         }
 

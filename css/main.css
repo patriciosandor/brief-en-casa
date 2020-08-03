@@ -473,7 +473,7 @@ mark,
   content: "\2014\00A0";
 }
 
-.img-fluid, .header__nav__div__img, .footer__section__article__div__div__img, .sectionN__article__div img {
+.img-fluid, .header__nav__div__a__img, .footer__section__article__div__div__img, .sectionN__article__div img {
   max-width: 100%;
   height: auto;
 }
@@ -13743,7 +13743,7 @@ html {
   width: 100%;
 }
 
-.header__nav__div__img {
+.header__nav__div__a__img {
   width: 15rem;
   padding-left: 3rem;
 }
@@ -14135,7 +14135,7 @@ html {
     justify-content: center;
     align-items: center;
   }
-  .header__nav__div__img {
+  .header__nav__div__a__img {
     width: 20rem;
     padding: 0rem;
   }
