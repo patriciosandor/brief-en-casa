@@ -26,7 +26,7 @@
     //SECTOR ANIMACION DE MENU
 //--------------------------------------------------
 
-    @media (min-width: 768px){
+    @media (min-width: 990px){
         .header__nav__text__ul__li__a {
             font-size: 2.5rem;
             color: inherit; 
@@ -127,7 +127,7 @@
 //--------------------------------------------------
     //SECTOR FOTOS REDES FORMATO SM
 //--------------------------------------------------
-        @media (max-width: 768px) {
+        @media (max-width: 576px) {
         .header__nav__redes {
             margin: 2rem 0rem; 
             &__img{
@@ -135,6 +135,15 @@
             }
         } 
         }
+
+        @media (max-width: 768px) {
+            .header__nav__redes {
+                margin: 2rem 0rem; 
+                &__img{
+                    width: 7%; 
+                }
+            } 
+            }
 
 //--------------------------------------------------
 //--------------------------------------------------
@@ -177,7 +186,7 @@
                 //VIDEO
 //--------------------------------------------------
 
-    @media (max-width: 768px) {
+    @media (max-width: 576px) {
         .index{
             padding: 4rem 1rem 0rem 1rem;
             &__video2 {
@@ -189,6 +198,17 @@
         }
     }
 
+    @media (max-width: 768px) {
+        .index{
+            padding: 4rem 1rem 0rem 1rem;
+            &__video2 {
+                width: 70%; 
+            }
+            &__img {
+                display: none; 
+            } 
+        }
+    }
 //--------------------------------------------------
                 //CARUSEL
 //--------------------------------------------------
@@ -196,6 +216,8 @@
     @media (max-width: 768px) {
         
         .carrusel{
+            background-color: white;
+            margin: 0 auto;
             padding: 4rem 0;
             &__article{
                 &__div{
