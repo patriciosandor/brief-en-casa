@@ -77,7 +77,7 @@
 //--------------------------------------------------
     //SECTOR  MODIFICACION TAMAÑO DE MENU FORMATO LG
 //--------------------------------------------------
-    @media (min-width: 768px){
+    @media (min-width: 720px){
         .header__nav__text__ul__li__a {
             font-size: 2.5rem;
             color: inherit; 
@@ -90,7 +90,7 @@
 //--------------------------------------------------
     // SECTOR FIJAR NAV FORMATO SM
 //--------------------------------------------------
-    @media (max-width: 768px) {
+    @media (max-width: 720px) {
         .header{
             position: static;
             }
@@ -136,7 +136,7 @@
         } 
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 720px) {
             .header__nav__redes {
                 margin: 2rem 0rem; 
                 &__img{
