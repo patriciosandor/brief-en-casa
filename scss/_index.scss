@@ -9,19 +9,15 @@
 //--------------------------------------------------
     //PARTE VIDEO Y FOTO
     .index{
-        height: auto;
+        height: 80rem;
+        background-color: red;
         padding: 15rem 1rem 0rem 1rem;
-        
-        &__img{
-            filter: blur(6px);
-            width: $size-width;  
-        }
-
-        &__video1{
-            height:90%;
-            width: auto;
-            z-index: 4; 
-        }
+        background-image: url(/fotos/Platos/fondoVideo1.jpg);
+        // &__video{
+        //     height:90%;
+        //     width: auto;
+        //     z-index: 4; 
+        // }
     }
 
 //--------------------------------------------------

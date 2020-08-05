@@ -56,6 +56,7 @@
     &__nav{
         @extend .row;
         @extend .navbar;
+        @extend .navbar-expand-md;
         @extend .navbar-expand-lg;
         @extend .navbar-light;
         @extend .bg-light;
@@ -209,32 +210,15 @@
     @extend .d-flex;
     @extend .align-items-center;
     @extend .justify-content-around;
-    &__img{
-        @extend .position-relative;
-        @extend .visible-lg !optional;
     }
-    &__video1{
-        @extend .position-absolute;
-        @extend .d-none;
-        @extend .d-xl-block;
-    }
-    &__video2{
-        @extend .d-none;
-        @extend .d-sm-block;
-        @extend .d-md-none;
-        @extend .d-flex;
-        @extend .align-items-center;
-        @extend .justify-content-around;
-
-    }
-}
 
 //--------------------------------------------------
                     //CARUSEL
 //--------------------------------------------------
 
 .carrusel{
-    @extend .container;
+    @extend .container-lg;
+    @extend .container-fluid;
     &__article{
         &__div{
             @extend .carousel;

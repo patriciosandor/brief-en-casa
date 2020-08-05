@@ -196,6 +196,7 @@
     @media (max-width: 768px) {
         
         .carrusel{
+            background-color: $color-fondo;
             padding: 4rem 0;
             &__article{
                 &__div{
