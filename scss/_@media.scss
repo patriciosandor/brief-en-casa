@@ -179,9 +179,13 @@
 
     @media (max-width: 768px) {
         .index{
-            &__{
-                display: none; 
-            } 
+            display: none;
+            margin-top:2rem
+            background-image: none;
+
+            &__video{
+                height: 100vh;
+            }
         }
     }
 
