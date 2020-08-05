@@ -4,8 +4,10 @@
   //SECTOR IMAGEN
 .header {
     box-shadow: $color-shadow $size-shadow;
-    
     position: fixed;
+    margin: 0;
+    top: 0;
+    left:0;
     z-index: 100; 
     &__nav{
         width: $size-width;

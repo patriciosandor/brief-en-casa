@@ -13729,6 +13729,9 @@ html {
 .header {
   box-shadow: #979797 0.6rem 0.6rem 3rem 0.4rem;
   position: fixed;
+  margin: 0;
+  top: 0;
+  left: 0;
   z-index: 100;
 }
 
@@ -13831,11 +13834,20 @@ html {
 
 .index {
   background-image: url(../fotos/Platos/fondoVideo1.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
+  background-position: center;
+  background-attachment: contain;
+  height: 100vh;
+  width: 100vw;
   background-color: red;
-  padding: 15rem 1rem 0rem 1rem;
+  margin: 18rem 0rem 0rem 0rem;
+}
+
+.index__video {
+  height: 90%;
+  width: auto;
+  z-index: 4;
 }
 
 .carrusel {
@@ -14242,7 +14254,7 @@ html {
 }
 
 @media (max-width: 768px) {
-  .index__img {
+  .index__ {
     display: none;
   }
 }
