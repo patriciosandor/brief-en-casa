@@ -9,10 +9,12 @@
 //--------------------------------------------------
     //PARTE VIDEO Y FOTO
     .index{
-        height: 80rem;
+        background-image: url(../fotos/Platos/fondoVideo1.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height:100%;
         background-color: red;
         padding: 15rem 1rem 0rem 1rem;
-        background-image: url(/fotos/Platos/fondoVideo1.jpg);
         // &__video{
         //     height:90%;
         //     width: auto;
