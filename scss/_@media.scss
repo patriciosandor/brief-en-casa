@@ -22,11 +22,27 @@
         }
     }
 
+    @media (max-width: 992px) {
+        .header__nav__div {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            &__a{
+                &__img {
+                    width: 30rem;
+                    padding: 0rem;
+                }
+            }
+        }
+    }
+
+
 //--------------------------------------------------
     //SECTOR ANIMACION DE MENU
 //--------------------------------------------------
 
-    @media (min-width: 768px){
+    @media (min-width: 992px){
         .header__nav__text__ul__li__a {
             font-size: 2.5rem;
             color: inherit; 
@@ -74,23 +90,11 @@
         } 
         
         } 
-//--------------------------------------------------
-    //SECTOR  MODIFICACION TAMAÑO DE MENU FORMATO LG
-//--------------------------------------------------
-    @media (min-width: 768px){
-        .header__nav__text__ul__li__a {
-            font-size: 2.5rem;
-            color: inherit; 
-            position: relative;
-            padding: 2rem 2rem;
-            transition: .7s;
-            content: none;}
-        }
 
 //--------------------------------------------------
-    // SECTOR FIJAR NAV FORMATO SM
+    // SECTOR FIJAR NAV FORMATO SM/MD
 //--------------------------------------------------
-    @media (max-width: 768px) {
+    @media (max-width: 992px) {
         .header{
             position: static;
             }
@@ -179,12 +183,11 @@
 
     @media (max-width: 768px) {
         .index{
-            display: none;
-            margin-top:2rem
-            background-image: none;
+            margin-top:2rem;
+            background-image:none;
 
             &__video{
-                height: 100vh;
+                height: 100%;
             }
         }
     }

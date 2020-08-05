@@ -14138,7 +14138,20 @@ html {
   }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 992px) {
+  .header__nav__div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .header__nav__div__a__img {
+    width: 30rem;
+    padding: 0rem;
+  }
+}
+
+@media (min-width: 992px) {
   .header__nav__text__ul__li__a {
     font-size: 2.5rem;
     color: inherit;
@@ -14181,18 +14194,7 @@ html {
   }
 }
 
-@media (min-width: 768px) {
-  .header__nav__text__ul__li__a {
-    font-size: 2.5rem;
-    color: inherit;
-    position: relative;
-    padding: 2rem 2rem;
-    transition: .7s;
-    content: none;
-  }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .header {
     position: static;
   }
@@ -14254,12 +14256,11 @@ html {
 
 @media (max-width: 768px) {
   .index {
-    display: none;
     margin-top: 2rem;
     background-image: none;
   }
   .index__video {
-    height: 95vh;
+    height: 100%;
   }
 }
 
