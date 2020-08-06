@@ -56,7 +56,6 @@
     &__nav{
         @extend .row;
         @extend .navbar;
-        @extend .navbar-expand-md;
         @extend .navbar-expand-lg;
         @extend .navbar-light;
         @extend .bg-light;
@@ -133,7 +132,7 @@
         &__redes{
             @extend .col-sm-12;
             @extend .col-lg-2 ;
-            @extend .pr-5;
+            @extend .pr-3;
             @extend .d-flex;
             @extend .align-items-center;
             @extend .justify-content-around; 

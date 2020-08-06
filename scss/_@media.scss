@@ -7,93 +7,97 @@
 //--------------------------------------------------
     //SECTOR LOGO
 //--------------------------------------------------
-    @media (max-width: 768px) {
-        .header__nav__div {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            &__a{
-                &__img {
-                    width: 20rem;
-                    padding: 0rem;
-                }
+@media (max-width: 992px) {
+    .header__nav__div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        &__a{
+            &__img {
+                width: 30rem;
+                padding: 0rem;
             }
         }
     }
+}
+
+@media (max-width: 768px) {
+    .header__nav__div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        &__a{
+            &__img {
+                width: 20rem;
+                padding: 0rem;
+            }
+        }
+    }
+}
+
 
 //--------------------------------------------------
     //SECTOR ANIMACION DE MENU
 //--------------------------------------------------
 
-    @media (min-width: 768px){
-        .header__nav__text__ul__li__a {
-            font-size: 2.5rem;
-            color: inherit; 
-            position: relative;
-            padding: 2rem 2rem;
-            transition: .7s;
-            content: none;
+@media (min-width: 992px){
+    .header__nav__text__ul__li__a {
+        font-size: 2.5rem;
+        color: inherit; 
+        position: relative;
+        padding: 2rem 2rem;
+        transition: .7s;
+        content: none;
 
-        }
+    }
+
+    .header__nav__text__ul__li__a:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: $size-width;
+        height: 4px;
+        background-color:black;
+        transform: scaleX(0);
+        transform-origin: right;
+        transition:transform .7s;
+    } 
     
-        .header__nav__text__ul__li__a:before{
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: $size-width;
-            height: 4px;
-            background-color:black;
-            transform: scaleX(0);
-            transform-origin: right;
-            transition:transform .7s;
-        } 
-        
-        .header__nav__text__ul__li__a:hover:before{
-            transform: scaleX(1);
-            transform-origin: left;
-        }
-        
-        .header__nav__text__ul__li__a:after{
-            content: '';
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            width: $size-width;
-            height: 4px;
-            background-color:black;
-            transform: scaleX(0);
-            transform-origin: left;
-            transition:transform .5s;
-        } 
-        
-        .header__nav__text__ul__li__a:hover:after{
-            transform: scaleX(1);
-            transform-origin: right;
-        } 
-        
-        } 
-//--------------------------------------------------
-    //SECTOR  MODIFICACION TAMAÑO DE MENU FORMATO LG
-//--------------------------------------------------
-    @media (min-width: 768px){
-        .header__nav__text__ul__li__a {
-            font-size: 2.5rem;
-            color: inherit; 
-            position: relative;
-            padding: 2rem 2rem;
-            transition: .7s;
-            content: none;}
-        }
+    .header__nav__text__ul__li__a:hover:before{
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+    
+    .header__nav__text__ul__li__a:after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: $size-width;
+        height: 4px;
+        background-color:black;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition:transform .5s;
+    } 
+    
+    .header__nav__text__ul__li__a:hover:after{
+        transform: scaleX(1);
+        transform-origin: right;
+    } 
+    
+    } 
 
 //--------------------------------------------------
-    // SECTOR FIJAR NAV FORMATO SM
+// SECTOR FIJAR NAV FORMATO SM/MD
 //--------------------------------------------------
-    @media (max-width: 768px) {
-        .header{
-            position: static;
-            }
+@media (max-width: 992px) {
+.header{
+    position: static;
+    }
 
 //--------------------------------------------------           
     //SECTOR MENU
@@ -127,14 +131,42 @@
 //--------------------------------------------------
     //SECTOR FOTOS REDES FORMATO SM
 //--------------------------------------------------
-        @media (max-width: 768px) {
-        .header__nav__redes {
-            margin: 2rem 0rem; 
-            &__img{
-                width: 10%; 
-            }
-        } 
+@media(min-width:1200px) {
+    .header__nav__redes {
+        margin: 2rem 0rem; 
+        &__img{
+            width: 4rem; 
         }
+    } 
+    }
+
+@media(max-width:1200px) {
+    .header__nav__redes {
+        padding-right: 1rem; 
+        &__img{
+            width: 3.5rem;
+        }
+    } 
+    }
+
+@media(max-width:992px) {
+    .header__nav__redes {
+        margin: 2rem 0rem;
+        &__img{
+            width: 5rem;}
+        }
+    }
+
+@media(max-width:768px) {
+    .header__nav__redes {
+    margin: 2rem 0rem;
+    &__img{
+        width: 4rem;}
+    }
+}
+
+
+
 
 //--------------------------------------------------
 //--------------------------------------------------
@@ -142,77 +174,118 @@
 //--------------------------------------------------
 //--------------------------------------------------
 
-    @media (max-width: 768px) {
-        .footer__section__article__div {
-        width:70%;
-        margin: 0 auto;
-        padding: 0rem !important;
+
+@media (max-width: 992px) {
+    .footer__section__article__div {
+    width:55%;
+    margin: 0 auto;
+    padding: 0rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer__section__article__div {
+    width:70%;
+    margin: 0 auto;
+    padding: 0rem;
+    }
+}
+
+//--------------------------------------------------
+                //SECTOR TEXTO
+//--------------------------------------------------
+
+
+@media (max-width: 992px) {
+    .footer__section__article__texto {
+        &__p{
+            margin: 5rem 10rem 2rem 10rem;
+            height: $size-heigth;
+            padding: 6rem 12rem;
+            font-size: 1.2rem;
+            line-height: 3rem;
+            text-align: justify;
+            border: solid black 0.5rem; }
+
+            &__ol {
+            margin: 5rem 10rem 2rem 10rem;
+            padding: 6rem 12rem;
+            height: $size-heigth;
+            font-size: 1.2rem;
+            line-height: 3rem;
+            text-align: justify;
+            border: solid black 0.5rem; } 
+    }
+}
+
+@media (max-width: 765px) {
+    .footer__section__article__texto__p {
+    margin: 0rem;
+    height: $size-heigth;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    text-align: justify;
+    border: solid black 0.5rem; }
+    .footer__section__article__texto__ol {
+    margin: 0rem;
+    height: $size-heigth;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    text-align: justify;
+    border: solid black 0.5rem; } 
+}
+
+//--------------------------------------------------
+//--------------------------------------------------
+            //INDEX
+//--------------------------------------------------
+//--------------------------------------------------
+
+//--------------------------------------------------
+            //VIDEO
+//--------------------------------------------------
+
+@media (max-width: 768px) {
+    .index{
+        margin-top:5rem;
+        background-image:none;
+        &__video{
+            height: 100vh;
         }
     }
+}
+
+
+@media (max-width: 992px) {
+    .index{
+        margin-top:5rem;
+    }
+}
+
+//--------------------------------------------------
+            //CARUSEL
+//--------------------------------------------------
+
+@media (max-width: 768px) {
     
-    @media (max-width: 768px) {
-        .footer__section__article__texto__p {
-        margin: 0rem;
-        height: $size-heigth;
-        font-size: 1.2rem;
-        line-height: 3rem;
-        text-align: justify;
-        border: solid black 0.5rem; }
-        .footer__section__article__texto__ol {
-        margin: 0rem;
-        height: $size-heigth;
-        font-size: 1.2rem;
-        line-height: 3rem;
-        text-align: justify;
-        border: solid black 0.5rem; } 
-    }
-
-//--------------------------------------------------
-//--------------------------------------------------
-                //INDEX
-//--------------------------------------------------
-//--------------------------------------------------
-
-//--------------------------------------------------
-                //VIDEO
-//--------------------------------------------------
-
-    @media (max-width: 768px) {
-        .index{
-            display: none;
-            margin-top:2rem;
-            background-image:none;
-
-            &__video{
-                height: 100vh;
+    .carrusel{
+        background-color: $color-fondo;
+        padding: 4rem 0;
+        &__article{
+            &__div{
+                width:100%;
+                margin: 0;
             }
         }
     }
 
-//--------------------------------------------------
-                //CARUSEL
-//--------------------------------------------------
-
-    @media (max-width: 768px) {
-        
-        .carrusel{
-            background-color: $color-fondo;
-            padding: 4rem 0;
-            &__article{
-                &__div{
-                    width:100%;
-                    margin: 0;
-                }
-            }
-        }
-
-        .carrusel__article__div__div__div__div{
-            &__a{
-                font-size: 1.5rem;
-                padding: 0.5rem 3.5rem;
-            }
+    .carrusel__article__div__div__div__div{
+        &__a{
+            font-size: 1.5rem;
+            padding: 0.5rem 3.5rem;
         }
     }
+}
 
 
 //--------------------------------------------------
