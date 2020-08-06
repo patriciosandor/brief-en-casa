@@ -4300,43 +4300,37 @@ input[type="button"].btn-block {
 }
 
 @media (max-width: 767.98px) {
-  .navbar-expand-md > .container, .header__nav .navbar-expand-md > .container, .navbar-expand-md .header__nav > .container, .header__nav > .container, .navbar-expand-md > .sectionM__article2, .header__nav .navbar-expand-md > .sectionM__article2, .navbar-expand-md .header__nav > .sectionM__article2, .header__nav > .sectionM__article2, .navbar-expand-md > .sectionM__article, .header__nav .navbar-expand-md > .sectionM__article, .navbar-expand-md .header__nav > .sectionM__article, .header__nav > .sectionM__article, .navbar-expand-md > .sectionB__article2, .header__nav .navbar-expand-md > .sectionB__article2, .navbar-expand-md .header__nav > .sectionB__article2, .header__nav > .sectionB__article2, .navbar-expand-md > .sectionB__article, .header__nav .navbar-expand-md > .sectionB__article, .navbar-expand-md .header__nav > .sectionB__article, .header__nav > .sectionB__article, .navbar-expand-md > .sectionN, .header__nav .navbar-expand-md > .sectionN, .navbar-expand-md .header__nav > .sectionN, .header__nav > .sectionN,
-  .navbar-expand-md > .container-fluid,
-  .header__nav .navbar-expand-md > .container-fluid,
-  .navbar-expand-md .header__nav > .container-fluid,
-  .header__nav > .container-fluid, .navbar-expand-md > .container-sm, .header__nav .navbar-expand-md > .container-sm, .navbar-expand-md .header__nav > .container-sm, .header__nav > .container-sm, .navbar-expand-md > .container-md, .header__nav .navbar-expand-md > .container-md, .navbar-expand-md .header__nav > .container-md, .header__nav > .container-md, .navbar-expand-md > .container-lg, .header__nav .navbar-expand-md > .container-lg, .navbar-expand-md .header__nav > .container-lg, .header__nav > .container-lg, .navbar-expand-md > .carrusel, .header__nav .navbar-expand-md > .carrusel, .navbar-expand-md .header__nav > .carrusel, .header__nav > .carrusel, .navbar-expand-md > .container-xl, .header__nav .navbar-expand-md > .container-xl, .navbar-expand-md .header__nav > .container-xl, .header__nav > .container-xl, .navbar-expand-md > .header, .header__nav .navbar-expand-md > .header, .navbar-expand-md .header__nav > .header, .header__nav > .header, .navbar-expand-md > .footer, .header__nav .navbar-expand-md > .footer, .navbar-expand-md .header__nav > .footer, .header__nav > .footer, .navbar-expand-md > .sectionM, .header__nav .navbar-expand-md > .sectionM, .navbar-expand-md .header__nav > .sectionM, .header__nav > .sectionM, .navbar-expand-md > .sectionB, .header__nav .navbar-expand-md > .sectionB, .navbar-expand-md .header__nav > .sectionB, .header__nav > .sectionB {
+  .navbar-expand-md > .container, .navbar-expand-md > .sectionM__article2, .navbar-expand-md > .sectionM__article, .navbar-expand-md > .sectionB__article2, .navbar-expand-md > .sectionB__article, .navbar-expand-md > .sectionN,
+  .navbar-expand-md > .container-fluid, .navbar-expand-md > .container-sm, .navbar-expand-md > .container-md, .navbar-expand-md > .container-lg, .navbar-expand-md > .carrusel, .navbar-expand-md > .container-xl, .navbar-expand-md > .header, .navbar-expand-md > .footer, .navbar-expand-md > .sectionM, .navbar-expand-md > .sectionB {
     padding-right: 0;
     padding-left: 0;
   }
 }
 
 @media (min-width: 768px) {
-  .navbar-expand-md, .header__nav {
+  .navbar-expand-md {
     flex-flow: row nowrap;
     justify-content: flex-start;
   }
-  .navbar-expand-md .navbar-nav, .header__nav .navbar-nav, .navbar-expand-md .header__nav__text__ul, .header__nav .header__nav__text__ul {
+  .navbar-expand-md .navbar-nav, .navbar-expand-md .header__nav__text__ul {
     flex-direction: row;
   }
-  .navbar-expand-md .navbar-nav .dropdown-menu, .header__nav .navbar-nav .dropdown-menu, .navbar-expand-md .header__nav__text__ul .dropdown-menu, .header__nav .header__nav__text__ul .dropdown-menu, .navbar-expand-md .navbar-nav .header__nav__text__ul__li__div, .header__nav .navbar-nav .header__nav__text__ul__li__div, .navbar-expand-md .header__nav__text__ul .header__nav__text__ul__li__div, .header__nav .header__nav__text__ul .header__nav__text__ul__li__div {
+  .navbar-expand-md .navbar-nav .dropdown-menu, .navbar-expand-md .header__nav__text__ul .dropdown-menu, .navbar-expand-md .navbar-nav .header__nav__text__ul__li__div, .navbar-expand-md .header__nav__text__ul .header__nav__text__ul__li__div {
     position: absolute;
   }
-  .navbar-expand-md .navbar-nav .nav-link, .header__nav .navbar-nav .nav-link, .navbar-expand-md .header__nav__text__ul .nav-link, .header__nav .header__nav__text__ul .nav-link {
+  .navbar-expand-md .navbar-nav .nav-link, .navbar-expand-md .header__nav__text__ul .nav-link {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
-  .navbar-expand-md > .container, .header__nav .navbar-expand-md > .container, .navbar-expand-md .header__nav > .container, .header__nav > .container, .navbar-expand-md > .sectionM__article2, .header__nav .navbar-expand-md > .sectionM__article2, .navbar-expand-md .header__nav > .sectionM__article2, .header__nav > .sectionM__article2, .navbar-expand-md > .sectionM__article, .header__nav .navbar-expand-md > .sectionM__article, .navbar-expand-md .header__nav > .sectionM__article, .header__nav > .sectionM__article, .navbar-expand-md > .sectionB__article2, .header__nav .navbar-expand-md > .sectionB__article2, .navbar-expand-md .header__nav > .sectionB__article2, .header__nav > .sectionB__article2, .navbar-expand-md > .sectionB__article, .header__nav .navbar-expand-md > .sectionB__article, .navbar-expand-md .header__nav > .sectionB__article, .header__nav > .sectionB__article, .navbar-expand-md > .sectionN, .header__nav .navbar-expand-md > .sectionN, .navbar-expand-md .header__nav > .sectionN, .header__nav > .sectionN,
-  .navbar-expand-md > .container-fluid,
-  .header__nav .navbar-expand-md > .container-fluid,
-  .navbar-expand-md .header__nav > .container-fluid,
-  .header__nav > .container-fluid, .navbar-expand-md > .container-sm, .header__nav .navbar-expand-md > .container-sm, .navbar-expand-md .header__nav > .container-sm, .header__nav > .container-sm, .navbar-expand-md > .container-md, .header__nav .navbar-expand-md > .container-md, .navbar-expand-md .header__nav > .container-md, .header__nav > .container-md, .navbar-expand-md > .container-lg, .header__nav .navbar-expand-md > .container-lg, .navbar-expand-md .header__nav > .container-lg, .header__nav > .container-lg, .navbar-expand-md > .carrusel, .header__nav .navbar-expand-md > .carrusel, .navbar-expand-md .header__nav > .carrusel, .header__nav > .carrusel, .navbar-expand-md > .container-xl, .header__nav .navbar-expand-md > .container-xl, .navbar-expand-md .header__nav > .container-xl, .header__nav > .container-xl, .navbar-expand-md > .header, .header__nav .navbar-expand-md > .header, .navbar-expand-md .header__nav > .header, .header__nav > .header, .navbar-expand-md > .footer, .header__nav .navbar-expand-md > .footer, .navbar-expand-md .header__nav > .footer, .header__nav > .footer, .navbar-expand-md > .sectionM, .header__nav .navbar-expand-md > .sectionM, .navbar-expand-md .header__nav > .sectionM, .header__nav > .sectionM, .navbar-expand-md > .sectionB, .header__nav .navbar-expand-md > .sectionB, .navbar-expand-md .header__nav > .sectionB, .header__nav > .sectionB {
+  .navbar-expand-md > .container, .navbar-expand-md > .sectionM__article2, .navbar-expand-md > .sectionM__article, .navbar-expand-md > .sectionB__article2, .navbar-expand-md > .sectionB__article, .navbar-expand-md > .sectionN,
+  .navbar-expand-md > .container-fluid, .navbar-expand-md > .container-sm, .navbar-expand-md > .container-md, .navbar-expand-md > .container-lg, .navbar-expand-md > .carrusel, .navbar-expand-md > .container-xl, .navbar-expand-md > .header, .navbar-expand-md > .footer, .navbar-expand-md > .sectionM, .navbar-expand-md > .sectionB {
     flex-wrap: nowrap;
   }
-  .navbar-expand-md .navbar-collapse, .header__nav .navbar-collapse, .navbar-expand-md .header__nav__text, .header__nav .header__nav__text {
+  .navbar-expand-md .navbar-collapse, .navbar-expand-md .header__nav__text {
     display: flex !important;
     flex-basis: auto;
   }
-  .navbar-expand-md .navbar-toggler, .header__nav .navbar-toggler, .navbar-expand-md .header__nav__button, .header__nav .header__nav__button {
+  .navbar-expand-md .navbar-toggler, .navbar-expand-md .header__nav__button {
     display: none;
   }
 }
@@ -7955,7 +7949,7 @@ button.bg-dark:focus {
   padding-top: 1rem !important;
 }
 
-.pr-3,
+.pr-3, .header__nav__redes,
 .px-3 {
   padding-right: 1rem !important;
 }
@@ -8003,7 +7997,7 @@ button.bg-dark:focus {
   padding-top: 3rem !important;
 }
 
-.pr-5, .header__nav__redes, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article,
+.pr-5, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article,
 .px-5 {
   padding-right: 3rem !important;
 }
@@ -12139,7 +12133,7 @@ html {
   padding-top: 1rem !important;
 }
 
-.pr-3,
+.pr-3, .header__nav__redes,
 .px-3 {
   padding-right: 1rem !important;
 }
@@ -12187,7 +12181,7 @@ html {
   padding-top: 3rem !important;
 }
 
-.pr-5, .header__nav__redes, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article,
+.pr-5, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article,
 .px-5 {
   padding-right: 3rem !important;
 }
@@ -13749,10 +13743,6 @@ html {
   height: 100%;
 }
 
-.header__nav__redes__img {
-  width: 17%;
-}
-
 .header__nav__button__span {
   width: 4rem;
   height: 4rem;
@@ -14125,19 +14115,6 @@ html {
   margin: 1rem;
 }
 
-@media (max-width: 768px) {
-  .header__nav__div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .header__nav__div__a__img {
-    width: 20rem;
-    padding: 0rem;
-  }
-}
-
 @media (max-width: 992px) {
   .header__nav__div {
     display: flex;
@@ -14147,6 +14124,19 @@ html {
   }
   .header__nav__div__a__img {
     width: 30rem;
+    padding: 0rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__nav__div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .header__nav__div__a__img {
+    width: 20rem;
     padding: 0rem;
   }
 }
@@ -14218,12 +14208,39 @@ html {
   }
 }
 
+@media (min-width: 1200px) {
+  .header__nav__redes {
+    margin: 2rem 0rem;
+  }
+  .header__nav__redes__img {
+    width: 4rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header__nav__redes {
+    padding-right: 1rem;
+  }
+  .header__nav__redes__img {
+    width: 3.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .header__nav__redes {
+    margin: 2rem 0rem;
+  }
+  .header__nav__redes__img {
+    width: 5rem;
+  }
+}
+
 @media (max-width: 768px) {
   .header__nav__redes {
     margin: 2rem 0rem;
   }
   .header__nav__redes__img {
-    width: 10%;
+    width: 4rem;
   }
 }
 
@@ -14256,11 +14273,17 @@ html {
 
 @media (max-width: 768px) {
   .index {
-    margin-top: 2rem;
+    margin-top: 5rem;
     background-image: none;
   }
   .index__video {
-    height: 100%;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 992px) {
+  .index {
+    margin-top: 5rem;
   }
 }
 
