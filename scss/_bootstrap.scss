@@ -394,7 +394,7 @@
         &__div{
             @extend .row;
             &__div{
-                @extend .col-sm-12;
+                @extend .col-sm-6;
                 @extend .col-lg-4;
                 &__div{
                     @extend .card;
@@ -479,11 +479,14 @@
     @extend .justify-content-center;
     &__article{
         @extend .col-sm-12;
-        @extend .col-lg-6;
+        @extend .col-lg-12;
+        @extend .col-xl-6;
+        
     }
 
     &__consulta{
         @extend .col-sm-12;
-        @extend .col-lg-6;
+        @extend .col-lg-12;
+        @extend .col-xl-6;
     }
 }

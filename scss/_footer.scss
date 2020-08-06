@@ -42,23 +42,25 @@
                     align-content: center;
                     &__p{
                         display: block;
+                        hyphens: auto;
                         margin-bottom: 5rem;
                         height: 100%;
                         font-size: 1.8rem;
                         line-height: 4.5rem;
                         text-align: justify;
-                        padding: 4rem;
+                        letter-spacing: 0.025em;
+                        padding: 8rem 4rem 8rem 4rem;
                         border: solid black 0.5rem; 
                     }
         
                     &__ol{
-                        display: inline-block;
+                        display: block;
                         margin-bottom: 5rem;
                         height: 100%;
                         font-size: 1.8rem;
                         line-height: 4.5rem;
                         text-align: justify;
-                        padding: 4rem;
+                        padding: 8rem 4rem 8rem 4rem;
                         border: solid black 0.5rem;
                     }
                 }
