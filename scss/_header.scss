@@ -16,7 +16,6 @@
             &__a{
                 &__img{
                     width: 15rem;
-                    padding-left: 3rem;
                 } 
             }
         } 
@@ -49,6 +48,7 @@
                         }
                         &__a {
                             font-size: 2em;
+                            text-align: center;
                             list-style: none; 
                             margin: 2rem 0;
                             &:hover{
