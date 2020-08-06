@@ -70,6 +70,7 @@
         &__div{
             @extend .col-sm-12;
             @extend .col-lg-2;
+            @extend .col-xl-2;
             @extend .m-0;
             &__a{
                 &__img{
@@ -93,7 +94,8 @@
         &__text{
             @extend .p-0;
             @extend .col-sm-12;
-            @extend .col-lg-8;
+            @extend .col-lg-7;
+            @extend .col-xl-8;
             @extend .collapse;
             @extend .navbar-collapse;
 
@@ -131,8 +133,9 @@
 //--------------------------------------------------
         &__redes{
             @extend .col-sm-12;
-            @extend .col-lg-2 ;
-            @extend .pr-3;
+            @extend .col-lg-3;
+            @extend .col-xl-2;
+            @extend .p-0;
             @extend .d-flex;
             @extend .align-items-center;
             @extend .justify-content-around; 
@@ -169,7 +172,9 @@
 //--------------------------------------------------
 
                 &__div{
-                    @extend .col-6;
+                    @extend .col-sm-12;
+                    @extend .col-md-3;
+                    @extend .col-lg-6;
                     @extend .p-0;
                     &__img {
                         @extend .p-0;
@@ -181,11 +186,13 @@
                 //SECTOR TEXTO
 //--------------------------------------------------
             &__texto{
-                @extend .m-2;
+                @extend .row;
                 &__p{
+                    @extend .col-10;
                     @extend .text-white;
                 }
                 &__ol{
+                    @extend .col-10; 
                     @extend .text-white;
                     @extend .text-uppercase;
                 }

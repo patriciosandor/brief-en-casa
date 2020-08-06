@@ -15,21 +15,6 @@
         align-items: center;
         &__a{
             &__img {
-                width: 30rem;
-                padding: 0rem;
-            }
-        }
-    }
-}
-
-@media (max-width: 768px) {
-    .header__nav__div {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        &__a{
-            &__img {
                 width: 20rem;
                 padding: 0rem;
             }
@@ -37,12 +22,21 @@
     }
 }
 
-
 //--------------------------------------------------
     //SECTOR ANIMACION DE MENU
 //--------------------------------------------------
-
 @media (min-width: 992px){
+    .header__nav__text__ul__li__a {
+        font-size: 2.5rem;
+        color: inherit; 
+        position: relative;
+        padding: 2rem 2rem;
+        transition: .7s;
+        content: none;
+    }
+}
+
+@media (min-width: 1047px){
     .header__nav__text__ul__li__a {
         font-size: 2.5rem;
         color: inherit; 
@@ -91,8 +85,9 @@
     
     } 
 
+
 //--------------------------------------------------
-// SECTOR FIJAR NAV FORMATO SM/MD
+// SECTOR NAV FORMATO SM/MD
 //--------------------------------------------------
 @media (max-width: 992px) {
 .header{
@@ -132,8 +127,7 @@
     //SECTOR FOTOS REDES FORMATO SM
 //--------------------------------------------------
 @media(min-width:1200px) {
-    .header__nav__redes {
-        margin: 2rem 0rem; 
+    .header__nav__redes { 
         &__img{
             width: 4rem; 
         }
@@ -142,24 +136,21 @@
 
 @media(max-width:1200px) {
     .header__nav__redes {
-        padding-right: 1rem; 
         &__img{
-            width: 3.5rem;
+            width: 4rem;
         }
     } 
     }
 
 @media(max-width:992px) {
     .header__nav__redes {
-        margin: 2rem 0rem;
         &__img{
             width: 5rem;}
         }
     }
 
-@media(max-width:768px) {
+@media(max-width:765px) {
     .header__nav__redes {
-    margin: 2rem 0rem;
     &__img{
         width: 4rem;}
     }
@@ -174,20 +165,25 @@
 //--------------------------------------------------
 //--------------------------------------------------
 
-
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
     .footer__section__article__div {
-    width:55%;
-    margin: 0 auto;
-    padding: 0rem;
+    width:80%;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .footer__section__article__div {
-    width:70%;
     margin: 0 auto;
     padding: 0rem;
+    width:80%;
+    }
+}
+
+@media (max-width: 765px) {
+    .footer__section__article__div {
+    margin: 0 auto;
+    padding: 0rem;
+    width:50%;
     }
 }
 
@@ -195,44 +191,17 @@
                 //SECTOR TEXTO
 //--------------------------------------------------
 
-
-@media (max-width: 992px) {
-    .footer__section__article__texto {
-        &__p{
-            margin: 5rem 10rem 2rem 10rem;
-            height: $size-heigth;
-            padding: 6rem 12rem;
-            font-size: 1.2rem;
-            line-height: 3rem;
-            text-align: justify;
-            border: solid black 0.5rem; }
-
-            &__ol {
-            margin: 5rem 10rem 2rem 10rem;
-            padding: 6rem 12rem;
-            height: $size-heigth;
-            font-size: 1.2rem;
-            line-height: 3rem;
-            text-align: justify;
-            border: solid black 0.5rem; } 
-    }
-}
-
-@media (max-width: 765px) {
-    .footer__section__article__texto__p {
-    margin: 0rem;
-    height: $size-heigth;
-    font-size: 1.2rem;
-    line-height: 3rem;
-    text-align: justify;
-    border: solid black 0.5rem; }
-    .footer__section__article__texto__ol {
-    margin: 0rem;
-    height: $size-heigth;
-    font-size: 1.2rem;
-    line-height: 3rem;
-    text-align: justify;
-    border: solid black 0.5rem; } 
+@media (min-width: 1200px) {
+    // .footer__section__article__texto__p {
+    // margin: 0 auto;
+    // height: $size-heigth;
+    // font-size: 1.2rem;
+    // line-height: 3rem;}
+    // .footer__section__article__texto__ol {
+    // margin: 0 auto;
+    // height: $size-heigth;
+    // font-size: 1.2rem;
+    // line-height: 3rem; } 
 }
 
 //--------------------------------------------------

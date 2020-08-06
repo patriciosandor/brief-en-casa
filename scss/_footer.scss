@@ -15,20 +15,21 @@
 //--------------------------------------------------
     .footer{
         &__section{
-            &__p{
-                font-size: 1.8rem;
-                color: white;
-                text-align: center;
-                margin-bottom: 3rem;
-            }
             &__article{
                 &__h2{
                     margin: 6rem 0rem 3rem 0rem;
                 }
                 &__div{
-                    width: 40%;
+                    width: 50%;
                     margin: 0 auto; 
-                    overflow: hidden;
+                    overflow: hidden;           
+                    &__p{
+                        margin: 2rem 0;
+                        font-size: 1.8rem;
+                        color: white;
+                        text-align: center;
+                        margin-bottom: 3rem;
+                    }
                 }
         
             //--------------------------------------------------
@@ -36,23 +37,28 @@
             //--------------------------------------------------
         
                 &__texto{
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
                     &__p{
+                        display: block;
+                        margin-bottom: 5rem;
                         height: 100%;
                         font-size: 1.8rem;
-                        line-height: 5rem;
+                        line-height: 4.5rem;
                         text-align: justify;
-                        margin: 5rem 8rem 5em 8rem;  
-                        padding: 4rem 4rem 9rem 4rem;
+                        padding: 4rem;
                         border: solid black 0.5rem; 
                     }
         
                     &__ol{
+                        display: inline-block;
+                        margin-bottom: 5rem;
                         height: 100%;
                         font-size: 1.8rem;
-                        line-height: 4.7rem;
+                        line-height: 4.5rem;
                         text-align: justify;
-                        margin: 5rem 6rem 5rem 6rem;   
-                        padding: 4rem 4rem 6rem 6rem;
+                        padding: 4rem;
                         border: solid black 0.5rem;
                     }
                 }
