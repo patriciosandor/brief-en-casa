@@ -129,13 +129,15 @@
 @media(min-width:1200px) {
     .header__nav__redes { 
         &__img{
-            width: 4rem; 
+            width: 5rem; 
         }
     } 
     }
 
 @media(max-width:1200px) {
     .header__nav__redes {
+        display: flex;
+        justify-content: space-evenly !important;
         &__img{
             width: 4rem;
         }
@@ -240,6 +242,12 @@
             //VIDEO
 //--------------------------------------------------
 
+@media (max-width: 1200px) {
+    .index{
+        margin-top: 12rem;
+    }
+}
+
 @media (max-width: 992px) {
     .index{
         margin-top:5rem;
@@ -255,12 +263,6 @@
     }
 }
 
-
-@media (max-width: 992px) {
-    .index{
-        margin-top:5rem;
-    }
-}
 //--------------------------------------------------
             //CARUSEL
 //--------------------------------------------------
@@ -417,10 +419,10 @@
 @media (max-width: 1200px) {
     .sectionC{
         &__article{
-            padding: 19rem 0rem 0rem  0rem;
+            padding: 18rem 0rem 0rem  0rem;
         }
         &__consulta{
-            padding: 4rem 0 4rem 0;
+            padding: 5rem 0 5rem 0;
         }
     }
 }

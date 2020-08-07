@@ -13734,6 +13734,7 @@ html {
 }
 
 .header__nav__div__a__img {
+  padding-left: 2rem;
   width: 15rem;
 }
 
@@ -13841,7 +13842,7 @@ html {
   background-attachment: contain;
   height: 100vh;
   width: 100vw;
-  margin: 18rem 0rem 0rem 0rem;
+  margin-top: 13rem;
 }
 
 .index__video {
@@ -13876,7 +13877,7 @@ html {
 .sectionM__article2 {
   height: 100%;
   background-color: #f1f1f1;
-  padding-top: 15rem;
+  padding-top: 18rem;
   border: none;
 }
 
@@ -13958,7 +13959,7 @@ html {
 .sectionB__article2 {
   height: 100%;
   background-color: #f1f1f1;
-  padding-top: 15rem;
+  padding-top: 18rem;
   border: none;
 }
 
@@ -14032,7 +14033,7 @@ html {
 }
 
 .sectionN__article__div {
-  margin: 15rem 0 3rem 0;
+  margin: 18rem 0rem 5rem 0rem;
 }
 
 .sectionN__article__div img {
@@ -14040,7 +14041,7 @@ html {
 }
 
 .sectionN__article__div-texto-n {
-  margin: 15rem 0 3rem 0;
+  margin: 18rem 0rem 5rem 0rem;
 }
 
 .sectionN__article__div-texto-n__h1 {
@@ -14061,11 +14062,11 @@ html {
 
 /* CONTACTOS */
 .sectionC__article {
-  padding: 17rem 0rem 5rem 0rem;
+  padding: 18rem 0rem 5rem 0rem;
 }
 
 .sectionC__consulta {
-  padding: 17rem 0rem 5rem 0rem;
+  padding: 18rem 0rem 5rem 0rem;
 }
 
 .sectionC__consulta__form {
@@ -14219,11 +14220,15 @@ html {
 
 @media (min-width: 1200px) {
   .header__nav__redes__img {
-    width: 4rem;
+    width: 5rem;
   }
 }
 
 @media (max-width: 1200px) {
+  .header__nav__redes {
+    display: flex;
+    justify-content: space-evenly !important;
+  }
   .header__nav__redes__img {
     width: 4rem;
   }
@@ -14306,6 +14311,12 @@ html {
   }
 }
 
+@media (max-width: 1200px) {
+  .index {
+    margin-top: 12rem;
+  }
+}
+
 @media (max-width: 992px) {
   .index {
     margin-top: 5rem;
@@ -14319,12 +14330,6 @@ html {
   }
   .index__video {
     height: 100vh;
-  }
-}
-
-@media (max-width: 992px) {
-  .index {
-    margin-top: 5rem;
   }
 }
 
@@ -14396,10 +14401,10 @@ html {
 
 @media (max-width: 1200px) {
   .sectionC__article {
-    padding: 19rem 0rem 0rem  0rem;
+    padding: 18rem 0rem 0rem  0rem;
   }
   .sectionC__consulta {
-    padding: 4rem 0 4rem 0;
+    padding: 5rem 0 5rem 0;
   }
 }
 
