@@ -14263,7 +14263,6 @@ html {
   }
 }
 
-
 @media (max-width: 1200px) {
   .footer__section__article__texto__p {
     font-size: 1.5rem;
@@ -14404,7 +14403,7 @@ html {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .sectionC__article {
     padding: 4rem 0 0 0;
   }
