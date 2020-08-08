@@ -14350,12 +14350,14 @@ html {
 
 @media (max-width: 768px) {
   .sectionM__article2 {
+    margin-top: 3rem;
     padding-top: 3rem;
   }
   .sectionM__article2__title__h2 {
     font-size: 4rem;
   }
   .sectionM__article {
+    z-index: -1;
     padding-top: 2rem;
   }
   .sectionM__article__title__h2 {
@@ -14372,8 +14374,15 @@ html {
   }
 }
 
+@media (max-width: 576px) {
+  .sectionM__article2 {
+    margin-top: 2rem;
+  }
+}
+
 @media (max-width: 768px) {
   .sectionB__article2 {
+    margin-top: 3rem;
     padding-top: 3rem;
   }
   .sectionB__article2__title__h2 {
@@ -14387,6 +14396,12 @@ html {
   }
   .sectionB__article__div__div__div__div-texto-b__h2 {
     font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .sectionB__article2 {
+    margin-top: 2rem;
   }
 }
 
