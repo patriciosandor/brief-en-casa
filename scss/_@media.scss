@@ -251,15 +251,17 @@
 
 @media (max-width: 992px) {
     .index{
-        margin-top:5rem;
+        margin-top:4rem;
+        height: 100vh;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 763px) {
     .index{
-        margin-top:5rem;
+        height: 73rem;
+        margin:0; 
         background-image:none;
         &__video{
-            height: 100vh;
+        width:100vw;
         }
     }
 }
