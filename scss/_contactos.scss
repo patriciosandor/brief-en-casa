@@ -4,18 +4,21 @@
 .sectionC{
     &__article{
         padding: 18rem 0rem 5rem 0rem;
-    }
-
-    &__consulta{
-
-        padding: 18rem 0rem 5rem 0rem;
+        background-color: $color-fondo;
+        &__div{
+            padding:0;
+            margin: 0rem auto 5rem;
+        }
         &__form{
             width: $size-width;
             background-color: $color-fondo;
             height: 100%;
+            border: solid 0.2rem;
             &__h2{
                 text-align: center;
                 padding-top: 2rem;
+                font-weight: 300;
+                font-size: 4.5rem;
             }
             &__div{
                 margin: 0.5rem 0rem;
@@ -46,10 +49,9 @@
 
 
     #validationTextarea{
-    width: 94%;
+    width: 92%;
     height: 10rem;
     margin: 2rem 3rem;
-    padding: 0rem 1rem;
     font-size: 1.5rem;
 }
     #inputState{

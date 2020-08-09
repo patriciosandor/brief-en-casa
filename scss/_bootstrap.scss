@@ -474,19 +474,17 @@
 //--------------------------------------------------
 //--------------------------------------------------
 .sectionC{
-    @extend .row;
-    @extend .d-flex;
-    @extend .justify-content-center;
+    @extend .container;
     &__article{
-        @extend .col-sm-12;
-        @extend .col-lg-12;
-        @extend .col-xl-6;
-        
-    }
-
-    &__consulta{
-        @extend .col-sm-12;
-        @extend .col-lg-12;
-        @extend .col-xl-6;
+        @extend .row;
+        &__div{
+        @extend .col-lg-12;    
+        @extend .col-xl-8;
+        }
+        &__form{
+        @extend .col-lg-12;   
+        @extend .col-xl-8;
+        @extend .m-auto
+        }
     }
 }

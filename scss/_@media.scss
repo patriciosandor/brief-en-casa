@@ -361,7 +361,7 @@
 //--------------------------------------------------
 //--------------------------------------------------
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
 
 //--------------------------------------------------
                 //TAMAÑO DE TITULO 
@@ -416,7 +416,7 @@
 //--------------------------------------------------
 //--------------------------------------------------
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .sectionN{
         &__article{
             &__div{
@@ -435,13 +435,45 @@
 //--------------------------------------------------
 //--------------------------------------------------
 
+// @media (max-width: 1440px) {
+//     .sectionC{
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-content: center;
+
+//         &__article{
+//             width:100%;
+//             margin: 0 auto;
+//             padding: 18rem 0rem 0rem  0rem;
+//             background-color: $color-fondo;
+//         }
+//         &__consulta{
+//             width:100%;
+//             margin: 0 auto;
+//             padding: 5rem 0 5rem 0;
+//             background-color: $color-fondo;
+//             &__form{
+//                 background-color:none;
+//             }
+//         }
+//     }
+// }
+
+
 @media (max-width: 1200px) {
     .sectionC{
         &__article{
             padding: 18rem 0rem 0rem  0rem;
-        }
-        &__consulta{
-            padding: 5rem 0 5rem 0;
+            &__div{
+                margin-bottom: 0rem;
+            }
+            &__form{
+                border: none;
+                &__h2{
+                    padding-top: 3rem;
+                }
+            }
         }
     }
 }
@@ -449,10 +481,31 @@
 @media (max-width: 992px) {
     .sectionC{
         &__article{
-            padding: 4rem 0 0 0;
-        }
-        &__consulta{
-            padding: 4rem 0 4rem 0;
+            padding: 0;
+            margin-top: 3rem;
+            &__form{
+                &__h2{
+                    font-weight: 300;
+                    font-size: 4rem;
+                }
+            }
         }
     }
+}
+
+@media (max-width: 576px) {
+    .sectionC{
+        &__article{
+            &__form{
+                &__h2{
+                    font-weight: 300;
+                    font-size: 3.5rem;
+                }
+            }
+        }
+    }
+    #validationTextarea{
+        width: 83%;
+    }
+
 }

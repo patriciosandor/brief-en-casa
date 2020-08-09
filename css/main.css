@@ -542,7 +542,7 @@ pre code {
   overflow-y: scroll;
 }
 
-.container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN {
+.container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN, .sectionC {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -551,25 +551,25 @@ pre code {
 }
 
 @media (min-width: 576px) {
-  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN {
+  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN, .sectionC {
     max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
-  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN {
+  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN, .sectionC {
     max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
-  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN {
+  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN, .sectionC {
     max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
-  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN {
+  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN, .sectionC {
     max-width: 1140px;
   }
 }
@@ -583,30 +583,30 @@ pre code {
 }
 
 @media (min-width: 576px) {
-  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN, .container-sm {
+  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN, .sectionC, .container-sm {
     max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
-  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN, .container-sm, .container-md {
+  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN, .sectionC, .container-sm, .container-md {
     max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
-  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN, .container-sm, .container-md, .container-lg, .carrusel {
+  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN, .sectionC, .container-sm, .container-md, .container-lg, .carrusel {
     max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
-  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN, .container-sm, .container-md, .container-lg, .carrusel, .container-xl {
+  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN, .sectionC, .container-sm, .container-md, .container-lg, .carrusel, .container-xl {
     max-width: 1140px;
   }
 }
 
-.row, .header__nav, .footer__section, .footer__section__article__div, .footer__section__article__texto, .sectionM__article__div, .sectionB__article__div, .sectionN__article, .sectionC {
+.row, .header__nav, .footer__section, .footer__section__article__div, .footer__section__article__texto, .sectionM__article__div, .sectionB__article__div, .sectionN__article, .sectionC__article {
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
@@ -625,9 +625,9 @@ pre code {
 }
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .footer__section__article__texto__p, .footer__section__article__texto__ol, .col-11, .col-12, .footer__section__article__h2, .sectionM__article2__title__h2, .sectionM__article__title__h2, .sectionB__article2__title__h2, .sectionB__article__title__h2, .col,
-.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .sectionB__article__div__div, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .header__nav__div, .header__nav__button, .header__nav__text, .header__nav__redes, .footer__section__article, .footer__section__article__div__div, .sectionM__article__div__div, .sectionN__article__div, .sectionN__article__div-texto-n, .sectionC__article, .sectionC__consulta, .col-sm,
+.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .sectionB__article__div__div, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .header__nav__div, .header__nav__button, .header__nav__text, .header__nav__redes, .footer__section__article, .footer__section__article__div__div, .sectionM__article__div__div, .sectionN__article__div, .sectionN__article__div-texto-n, .col-sm,
 .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
-.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
+.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .sectionC__article__div, .sectionC__article__form, .col-lg,
 .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
 .col-xl-auto {
   position: relative;
@@ -923,7 +923,7 @@ pre code {
     flex: 0 0 91.66667%;
     max-width: 91.66667%;
   }
-  .col-sm-12, .header__nav__div, .header__nav__button, .header__nav__text, .header__nav__redes, .footer__section__article, .footer__section__article__div__div, .sectionM__article__div__div, .sectionN__article__div, .sectionN__article__div-texto-n, .sectionC__article, .sectionC__consulta {
+  .col-sm-12, .header__nav__div, .header__nav__button, .header__nav__text, .header__nav__redes, .footer__section__article, .footer__section__article__div__div, .sectionM__article__div__div, .sectionN__article__div, .sectionN__article__div-texto-n {
     flex: 0 0 100%;
     max-width: 100%;
   }
@@ -1257,7 +1257,7 @@ pre code {
     flex: 0 0 91.66667%;
     max-width: 91.66667%;
   }
-  .col-lg-12, .sectionC__article, .sectionC__consulta {
+  .col-lg-12, .sectionC__article__div, .sectionC__article__form {
     flex: 0 0 100%;
     max-width: 100%;
   }
@@ -1400,7 +1400,7 @@ pre code {
     flex: 0 0 41.66667%;
     max-width: 41.66667%;
   }
-  .col-xl-6, .sectionC__article, .sectionC__consulta {
+  .col-xl-6 {
     flex: 0 0 50%;
     max-width: 50%;
   }
@@ -1408,7 +1408,7 @@ pre code {
     flex: 0 0 58.33333%;
     max-width: 58.33333%;
   }
-  .col-xl-8, .header__nav__text {
+  .col-xl-8, .header__nav__text, .sectionC__article__div, .sectionC__article__form {
     flex: 0 0 66.66667%;
     max-width: 66.66667%;
   }
@@ -4187,7 +4187,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 1rem;
 }
 
-.navbar .container, .header__nav .container, .navbar .sectionM__article2, .header__nav .sectionM__article2, .navbar .sectionM__article, .header__nav .sectionM__article, .navbar .sectionB__article2, .header__nav .sectionB__article2, .navbar .sectionB__article, .header__nav .sectionB__article, .navbar .sectionN, .header__nav .sectionN,
+.navbar .container, .header__nav .container, .navbar .sectionM__article2, .header__nav .sectionM__article2, .navbar .sectionM__article, .header__nav .sectionM__article, .navbar .sectionB__article2, .header__nav .sectionB__article2, .navbar .sectionB__article, .header__nav .sectionB__article, .navbar .sectionN, .header__nav .sectionN, .navbar .sectionC, .header__nav .sectionC,
 .navbar .container-fluid,
 .header__nav .container-fluid, .navbar .container-sm, .header__nav .container-sm, .navbar .container-md, .header__nav .container-md, .navbar .container-lg, .header__nav .container-lg, .navbar .carrusel, .header__nav .carrusel, .navbar .container-xl, .header__nav .container-xl, .navbar .header, .header__nav .header, .navbar .footer, .header__nav .footer, .navbar .sectionM, .header__nav .sectionM, .navbar .sectionB, .header__nav .sectionB {
   display: flex;
@@ -4264,7 +4264,7 @@ input[type="button"].btn-block {
 }
 
 @media (max-width: 575.98px) {
-  .navbar-expand-sm > .container, .navbar-expand-sm > .sectionM__article2, .navbar-expand-sm > .sectionM__article, .navbar-expand-sm > .sectionB__article2, .navbar-expand-sm > .sectionB__article, .navbar-expand-sm > .sectionN,
+  .navbar-expand-sm > .container, .navbar-expand-sm > .sectionM__article2, .navbar-expand-sm > .sectionM__article, .navbar-expand-sm > .sectionB__article2, .navbar-expand-sm > .sectionB__article, .navbar-expand-sm > .sectionN, .navbar-expand-sm > .sectionC,
   .navbar-expand-sm > .container-fluid, .navbar-expand-sm > .container-sm, .navbar-expand-sm > .container-md, .navbar-expand-sm > .container-lg, .navbar-expand-sm > .carrusel, .navbar-expand-sm > .container-xl, .navbar-expand-sm > .header, .navbar-expand-sm > .footer, .navbar-expand-sm > .sectionM, .navbar-expand-sm > .sectionB {
     padding-right: 0;
     padding-left: 0;
@@ -4286,7 +4286,7 @@ input[type="button"].btn-block {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
-  .navbar-expand-sm > .container, .navbar-expand-sm > .sectionM__article2, .navbar-expand-sm > .sectionM__article, .navbar-expand-sm > .sectionB__article2, .navbar-expand-sm > .sectionB__article, .navbar-expand-sm > .sectionN,
+  .navbar-expand-sm > .container, .navbar-expand-sm > .sectionM__article2, .navbar-expand-sm > .sectionM__article, .navbar-expand-sm > .sectionB__article2, .navbar-expand-sm > .sectionB__article, .navbar-expand-sm > .sectionN, .navbar-expand-sm > .sectionC,
   .navbar-expand-sm > .container-fluid, .navbar-expand-sm > .container-sm, .navbar-expand-sm > .container-md, .navbar-expand-sm > .container-lg, .navbar-expand-sm > .carrusel, .navbar-expand-sm > .container-xl, .navbar-expand-sm > .header, .navbar-expand-sm > .footer, .navbar-expand-sm > .sectionM, .navbar-expand-sm > .sectionB {
     flex-wrap: nowrap;
   }
@@ -4300,7 +4300,7 @@ input[type="button"].btn-block {
 }
 
 @media (max-width: 767.98px) {
-  .navbar-expand-md > .container, .navbar-expand-md > .sectionM__article2, .navbar-expand-md > .sectionM__article, .navbar-expand-md > .sectionB__article2, .navbar-expand-md > .sectionB__article, .navbar-expand-md > .sectionN,
+  .navbar-expand-md > .container, .navbar-expand-md > .sectionM__article2, .navbar-expand-md > .sectionM__article, .navbar-expand-md > .sectionB__article2, .navbar-expand-md > .sectionB__article, .navbar-expand-md > .sectionN, .navbar-expand-md > .sectionC,
   .navbar-expand-md > .container-fluid, .navbar-expand-md > .container-sm, .navbar-expand-md > .container-md, .navbar-expand-md > .container-lg, .navbar-expand-md > .carrusel, .navbar-expand-md > .container-xl, .navbar-expand-md > .header, .navbar-expand-md > .footer, .navbar-expand-md > .sectionM, .navbar-expand-md > .sectionB {
     padding-right: 0;
     padding-left: 0;
@@ -4322,7 +4322,7 @@ input[type="button"].btn-block {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
-  .navbar-expand-md > .container, .navbar-expand-md > .sectionM__article2, .navbar-expand-md > .sectionM__article, .navbar-expand-md > .sectionB__article2, .navbar-expand-md > .sectionB__article, .navbar-expand-md > .sectionN,
+  .navbar-expand-md > .container, .navbar-expand-md > .sectionM__article2, .navbar-expand-md > .sectionM__article, .navbar-expand-md > .sectionB__article2, .navbar-expand-md > .sectionB__article, .navbar-expand-md > .sectionN, .navbar-expand-md > .sectionC,
   .navbar-expand-md > .container-fluid, .navbar-expand-md > .container-sm, .navbar-expand-md > .container-md, .navbar-expand-md > .container-lg, .navbar-expand-md > .carrusel, .navbar-expand-md > .container-xl, .navbar-expand-md > .header, .navbar-expand-md > .footer, .navbar-expand-md > .sectionM, .navbar-expand-md > .sectionB {
     flex-wrap: nowrap;
   }
@@ -4336,7 +4336,7 @@ input[type="button"].btn-block {
 }
 
 @media (max-width: 991.98px) {
-  .navbar-expand-lg > .container, .header__nav .navbar-expand-lg > .container, .navbar-expand-lg .header__nav > .container, .header__nav > .container, .navbar-expand-lg > .sectionM__article2, .header__nav .navbar-expand-lg > .sectionM__article2, .navbar-expand-lg .header__nav > .sectionM__article2, .header__nav > .sectionM__article2, .navbar-expand-lg > .sectionM__article, .header__nav .navbar-expand-lg > .sectionM__article, .navbar-expand-lg .header__nav > .sectionM__article, .header__nav > .sectionM__article, .navbar-expand-lg > .sectionB__article2, .header__nav .navbar-expand-lg > .sectionB__article2, .navbar-expand-lg .header__nav > .sectionB__article2, .header__nav > .sectionB__article2, .navbar-expand-lg > .sectionB__article, .header__nav .navbar-expand-lg > .sectionB__article, .navbar-expand-lg .header__nav > .sectionB__article, .header__nav > .sectionB__article, .navbar-expand-lg > .sectionN, .header__nav .navbar-expand-lg > .sectionN, .navbar-expand-lg .header__nav > .sectionN, .header__nav > .sectionN,
+  .navbar-expand-lg > .container, .header__nav .navbar-expand-lg > .container, .navbar-expand-lg .header__nav > .container, .header__nav > .container, .navbar-expand-lg > .sectionM__article2, .header__nav .navbar-expand-lg > .sectionM__article2, .navbar-expand-lg .header__nav > .sectionM__article2, .header__nav > .sectionM__article2, .navbar-expand-lg > .sectionM__article, .header__nav .navbar-expand-lg > .sectionM__article, .navbar-expand-lg .header__nav > .sectionM__article, .header__nav > .sectionM__article, .navbar-expand-lg > .sectionB__article2, .header__nav .navbar-expand-lg > .sectionB__article2, .navbar-expand-lg .header__nav > .sectionB__article2, .header__nav > .sectionB__article2, .navbar-expand-lg > .sectionB__article, .header__nav .navbar-expand-lg > .sectionB__article, .navbar-expand-lg .header__nav > .sectionB__article, .header__nav > .sectionB__article, .navbar-expand-lg > .sectionN, .header__nav .navbar-expand-lg > .sectionN, .navbar-expand-lg .header__nav > .sectionN, .header__nav > .sectionN, .navbar-expand-lg > .sectionC, .header__nav .navbar-expand-lg > .sectionC, .navbar-expand-lg .header__nav > .sectionC, .header__nav > .sectionC,
   .navbar-expand-lg > .container-fluid,
   .header__nav .navbar-expand-lg > .container-fluid,
   .navbar-expand-lg .header__nav > .container-fluid,
@@ -4361,7 +4361,7 @@ input[type="button"].btn-block {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
-  .navbar-expand-lg > .container, .header__nav .navbar-expand-lg > .container, .navbar-expand-lg .header__nav > .container, .header__nav > .container, .navbar-expand-lg > .sectionM__article2, .header__nav .navbar-expand-lg > .sectionM__article2, .navbar-expand-lg .header__nav > .sectionM__article2, .header__nav > .sectionM__article2, .navbar-expand-lg > .sectionM__article, .header__nav .navbar-expand-lg > .sectionM__article, .navbar-expand-lg .header__nav > .sectionM__article, .header__nav > .sectionM__article, .navbar-expand-lg > .sectionB__article2, .header__nav .navbar-expand-lg > .sectionB__article2, .navbar-expand-lg .header__nav > .sectionB__article2, .header__nav > .sectionB__article2, .navbar-expand-lg > .sectionB__article, .header__nav .navbar-expand-lg > .sectionB__article, .navbar-expand-lg .header__nav > .sectionB__article, .header__nav > .sectionB__article, .navbar-expand-lg > .sectionN, .header__nav .navbar-expand-lg > .sectionN, .navbar-expand-lg .header__nav > .sectionN, .header__nav > .sectionN,
+  .navbar-expand-lg > .container, .header__nav .navbar-expand-lg > .container, .navbar-expand-lg .header__nav > .container, .header__nav > .container, .navbar-expand-lg > .sectionM__article2, .header__nav .navbar-expand-lg > .sectionM__article2, .navbar-expand-lg .header__nav > .sectionM__article2, .header__nav > .sectionM__article2, .navbar-expand-lg > .sectionM__article, .header__nav .navbar-expand-lg > .sectionM__article, .navbar-expand-lg .header__nav > .sectionM__article, .header__nav > .sectionM__article, .navbar-expand-lg > .sectionB__article2, .header__nav .navbar-expand-lg > .sectionB__article2, .navbar-expand-lg .header__nav > .sectionB__article2, .header__nav > .sectionB__article2, .navbar-expand-lg > .sectionB__article, .header__nav .navbar-expand-lg > .sectionB__article, .navbar-expand-lg .header__nav > .sectionB__article, .header__nav > .sectionB__article, .navbar-expand-lg > .sectionN, .header__nav .navbar-expand-lg > .sectionN, .navbar-expand-lg .header__nav > .sectionN, .header__nav > .sectionN, .navbar-expand-lg > .sectionC, .header__nav .navbar-expand-lg > .sectionC, .navbar-expand-lg .header__nav > .sectionC, .header__nav > .sectionC,
   .navbar-expand-lg > .container-fluid,
   .header__nav .navbar-expand-lg > .container-fluid,
   .navbar-expand-lg .header__nav > .container-fluid,
@@ -4378,7 +4378,7 @@ input[type="button"].btn-block {
 }
 
 @media (max-width: 1199.98px) {
-  .navbar-expand-xl > .container, .navbar-expand-xl > .sectionM__article2, .navbar-expand-xl > .sectionM__article, .navbar-expand-xl > .sectionB__article2, .navbar-expand-xl > .sectionB__article, .navbar-expand-xl > .sectionN,
+  .navbar-expand-xl > .container, .navbar-expand-xl > .sectionM__article2, .navbar-expand-xl > .sectionM__article, .navbar-expand-xl > .sectionB__article2, .navbar-expand-xl > .sectionB__article, .navbar-expand-xl > .sectionN, .navbar-expand-xl > .sectionC,
   .navbar-expand-xl > .container-fluid, .navbar-expand-xl > .container-sm, .navbar-expand-xl > .container-md, .navbar-expand-xl > .container-lg, .navbar-expand-xl > .carrusel, .navbar-expand-xl > .container-xl, .navbar-expand-xl > .header, .navbar-expand-xl > .footer, .navbar-expand-xl > .sectionM, .navbar-expand-xl > .sectionB {
     padding-right: 0;
     padding-left: 0;
@@ -4400,7 +4400,7 @@ input[type="button"].btn-block {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
-  .navbar-expand-xl > .container, .navbar-expand-xl > .sectionM__article2, .navbar-expand-xl > .sectionM__article, .navbar-expand-xl > .sectionB__article2, .navbar-expand-xl > .sectionB__article, .navbar-expand-xl > .sectionN,
+  .navbar-expand-xl > .container, .navbar-expand-xl > .sectionM__article2, .navbar-expand-xl > .sectionM__article, .navbar-expand-xl > .sectionB__article2, .navbar-expand-xl > .sectionB__article, .navbar-expand-xl > .sectionN, .navbar-expand-xl > .sectionC,
   .navbar-expand-xl > .container-fluid, .navbar-expand-xl > .container-sm, .navbar-expand-xl > .container-md, .navbar-expand-xl > .container-lg, .navbar-expand-xl > .carrusel, .navbar-expand-xl > .container-xl, .navbar-expand-xl > .header, .navbar-expand-xl > .footer, .navbar-expand-xl > .sectionM, .navbar-expand-xl > .sectionB {
     flex-wrap: nowrap;
   }
@@ -4418,7 +4418,7 @@ input[type="button"].btn-block {
   justify-content: flex-start;
 }
 
-.navbar-expand > .container, .navbar-expand > .sectionM__article2, .navbar-expand > .sectionM__article, .navbar-expand > .sectionB__article2, .navbar-expand > .sectionB__article, .navbar-expand > .sectionN,
+.navbar-expand > .container, .navbar-expand > .sectionM__article2, .navbar-expand > .sectionM__article, .navbar-expand > .sectionB__article2, .navbar-expand > .sectionB__article, .navbar-expand > .sectionN, .navbar-expand > .sectionC,
 .navbar-expand > .container-fluid, .navbar-expand > .container-sm, .navbar-expand > .container-md, .navbar-expand > .container-lg, .navbar-expand > .carrusel, .navbar-expand > .container-xl, .navbar-expand > .header, .navbar-expand > .footer, .navbar-expand > .sectionM, .navbar-expand > .sectionB {
   padding-right: 0;
   padding-left: 0;
@@ -4437,7 +4437,7 @@ input[type="button"].btn-block {
   padding-left: 0.5rem;
 }
 
-.navbar-expand > .container, .navbar-expand > .sectionM__article2, .navbar-expand > .sectionM__article, .navbar-expand > .sectionB__article2, .navbar-expand > .sectionB__article, .navbar-expand > .sectionN,
+.navbar-expand > .container, .navbar-expand > .sectionM__article2, .navbar-expand > .sectionM__article, .navbar-expand > .sectionB__article2, .navbar-expand > .sectionB__article, .navbar-expand > .sectionN, .navbar-expand > .sectionC,
 .navbar-expand > .container-fluid, .navbar-expand > .container-sm, .navbar-expand > .container-md, .navbar-expand > .container-lg, .navbar-expand > .carrusel, .navbar-expand > .container-xl, .navbar-expand > .header, .navbar-expand > .footer, .navbar-expand > .sectionM, .navbar-expand > .sectionB {
   flex-wrap: nowrap;
 }
@@ -6742,7 +6742,7 @@ button.bg-dark:focus {
   display: table-cell !important;
 }
 
-.d-flex, .header__nav__text__ul, .header__nav__redes, .index, .sectionM__article__div__div__div__div-texto-m__div, .sectionB__article__div__div__div__div-texto-b__div, .sectionN__article__div, .sectionC {
+.d-flex, .header__nav__text__ul, .header__nav__redes, .index, .sectionM__article__div__div__div__div-texto-m__div, .sectionB__article__div__div__div__div-texto-b__div, .sectionN__article__div {
   display: flex !important;
 }
 
@@ -6999,7 +6999,7 @@ button.bg-dark:focus {
   justify-content: flex-end !important;
 }
 
-.justify-content-center, .sectionM__article__div__div__div__div-texto-m__div, .sectionB__article__div__div__div__div-texto-b__div, .sectionN__article__div, .sectionC {
+.justify-content-center, .sectionM__article__div__div__div__div-texto-m__div, .sectionB__article__div__div__div__div-texto-b__div, .sectionN__article__div {
   justify-content: center !important;
 }
 
@@ -8132,7 +8132,7 @@ button.bg-dark:focus {
   margin-left: -3rem !important;
 }
 
-.m-auto, .footer__section__article__div, .carrusel__article__div {
+.m-auto, .footer__section__article__div, .carrusel__article__div, .sectionC__article__form {
   margin: auto !important;
 }
 
@@ -9822,7 +9822,7 @@ a.text-dark:hover, a.text-dark:focus {
   body {
     min-width: 992px !important;
   }
-  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN {
+  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN, .sectionC {
     min-width: 992px !important;
   }
   .navbar, .header__nav {
@@ -10197,7 +10197,7 @@ html {
   box-sizing: inherit;
 }
 
-.container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN {
+.container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN, .sectionC {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -10206,25 +10206,25 @@ html {
 }
 
 @media (min-width: 576px) {
-  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN {
+  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN, .sectionC {
     max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
-  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN {
+  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN, .sectionC {
     max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
-  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN {
+  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN, .sectionC {
     max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
-  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN {
+  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN, .sectionC {
     max-width: 1140px;
   }
 }
@@ -10238,30 +10238,30 @@ html {
 }
 
 @media (min-width: 576px) {
-  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN, .container-sm {
+  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN, .sectionC, .container-sm {
     max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
-  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN, .container-sm, .container-md {
+  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN, .sectionC, .container-sm, .container-md {
     max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
-  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN, .container-sm, .container-md, .container-lg, .carrusel {
+  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN, .sectionC, .container-sm, .container-md, .container-lg, .carrusel {
     max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
-  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN, .container-sm, .container-md, .container-lg, .carrusel, .container-xl {
+  .container, .sectionM__article2, .sectionM__article, .sectionB__article2, .sectionB__article, .sectionN, .sectionC, .container-sm, .container-md, .container-lg, .carrusel, .container-xl {
     max-width: 1140px;
   }
 }
 
-.row, .header__nav, .footer__section, .footer__section__article__div, .footer__section__article__texto, .sectionM__article__div, .sectionB__article__div, .sectionN__article, .sectionC {
+.row, .header__nav, .footer__section, .footer__section__article__div, .footer__section__article__texto, .sectionM__article__div, .sectionB__article__div, .sectionN__article, .sectionC__article {
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
@@ -10280,9 +10280,9 @@ html {
 }
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .footer__section__article__texto__p, .footer__section__article__texto__ol, .col-11, .col-12, .footer__section__article__h2, .sectionM__article2__title__h2, .sectionM__article__title__h2, .sectionB__article2__title__h2, .sectionB__article__title__h2, .col,
-.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .sectionB__article__div__div, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .header__nav__div, .header__nav__button, .header__nav__text, .header__nav__redes, .footer__section__article, .footer__section__article__div__div, .sectionM__article__div__div, .sectionN__article__div, .sectionN__article__div-texto-n, .sectionC__article, .sectionC__consulta, .col-sm,
+.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .sectionB__article__div__div, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .header__nav__div, .header__nav__button, .header__nav__text, .header__nav__redes, .footer__section__article, .footer__section__article__div__div, .sectionM__article__div__div, .sectionN__article__div, .sectionN__article__div-texto-n, .col-sm,
 .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
-.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
+.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .sectionC__article__div, .sectionC__article__form, .col-lg,
 .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
 .col-xl-auto {
   position: relative;
@@ -10578,7 +10578,7 @@ html {
     flex: 0 0 91.66667%;
     max-width: 91.66667%;
   }
-  .col-sm-12, .header__nav__div, .header__nav__button, .header__nav__text, .header__nav__redes, .footer__section__article, .footer__section__article__div__div, .sectionM__article__div__div, .sectionN__article__div, .sectionN__article__div-texto-n, .sectionC__article, .sectionC__consulta {
+  .col-sm-12, .header__nav__div, .header__nav__button, .header__nav__text, .header__nav__redes, .footer__section__article, .footer__section__article__div__div, .sectionM__article__div__div, .sectionN__article__div, .sectionN__article__div-texto-n {
     flex: 0 0 100%;
     max-width: 100%;
   }
@@ -10912,7 +10912,7 @@ html {
     flex: 0 0 91.66667%;
     max-width: 91.66667%;
   }
-  .col-lg-12, .sectionC__article, .sectionC__consulta {
+  .col-lg-12, .sectionC__article__div, .sectionC__article__form {
     flex: 0 0 100%;
     max-width: 100%;
   }
@@ -11055,7 +11055,7 @@ html {
     flex: 0 0 41.66667%;
     max-width: 41.66667%;
   }
-  .col-xl-6, .sectionC__article, .sectionC__consulta {
+  .col-xl-6 {
     flex: 0 0 50%;
     max-width: 50%;
   }
@@ -11063,7 +11063,7 @@ html {
     flex: 0 0 58.33333%;
     max-width: 58.33333%;
   }
-  .col-xl-8, .header__nav__text {
+  .col-xl-8, .header__nav__text, .sectionC__article__div, .sectionC__article__form {
     flex: 0 0 66.66667%;
     max-width: 66.66667%;
   }
@@ -11194,7 +11194,7 @@ html {
   display: table-cell !important;
 }
 
-.d-flex, .header__nav__text__ul, .header__nav__redes, .index, .sectionM__article__div__div__div__div-texto-m__div, .sectionB__article__div__div__div__div-texto-b__div, .sectionN__article__div, .sectionC {
+.d-flex, .header__nav__text__ul, .header__nav__redes, .index, .sectionM__article__div__div__div__div-texto-m__div, .sectionB__article__div__div__div__div-texto-b__div, .sectionN__article__div {
   display: flex !important;
 }
 
@@ -11408,7 +11408,7 @@ html {
   justify-content: flex-end !important;
 }
 
-.justify-content-center, .sectionM__article__div__div__div__div-texto-m__div, .sectionB__article__div__div__div__div-texto-b__div, .sectionN__article__div, .sectionC {
+.justify-content-center, .sectionM__article__div__div__div__div-texto-m__div, .sectionB__article__div__div__div__div-texto-b__div, .sectionN__article__div {
   justify-content: center !important;
 }
 
@@ -12316,7 +12316,7 @@ html {
   margin-left: -3rem !important;
 }
 
-.m-auto, .footer__section__article__div, .carrusel__article__div {
+.m-auto, .footer__section__article__div, .carrusel__article__div, .sectionC__article__form {
   margin: auto !important;
 }
 
@@ -14032,6 +14032,10 @@ html {
   text-align: center;
 }
 
+.sectionN {
+  width: 100%;
+}
+
 .sectionN__article__div {
   margin: 18rem 0rem 5rem 0rem;
 }
@@ -14063,56 +14067,60 @@ html {
 /* CONTACTOS */
 .sectionC__article {
   padding: 18rem 0rem 5rem 0rem;
+  background-color: #f1f1f1;
 }
 
-.sectionC__consulta {
-  padding: 18rem 0rem 5rem 0rem;
+.sectionC__article__div {
+  padding: 0;
+  margin: 0rem auto 5rem;
 }
 
-.sectionC__consulta__form {
+.sectionC__article__form {
   width: 100%;
   background-color: #f1f1f1;
   height: 100%;
+  border: solid 0.2rem;
 }
 
-.sectionC__consulta__form__h2 {
+.sectionC__article__form__h2 {
   text-align: center;
   padding-top: 2rem;
+  font-weight: 300;
+  font-size: 4.5rem;
 }
 
-.sectionC__consulta__form__div {
+.sectionC__article__form__div {
   margin: 0.5rem 0rem;
   padding: 0rem 3rem;
 }
 
-.sectionC__consulta__form__div__label {
+.sectionC__article__form__div__label {
   font-size: 2rem;
   font-weight: lighter;
 }
 
-.sectionC__consulta__form__div #formGroupExampleInput1 {
+.sectionC__article__form__div #formGroupExampleInput1 {
   width: 100%;
   height: 4rem;
   font-size: 1.5rem;
 }
 
-.sectionC__consulta__form__div #formGroupExampleInput2 {
+.sectionC__article__form__div #formGroupExampleInput2 {
   width: 100%;
   height: 4rem;
   font-size: 1.5rem;
 }
 
-.sectionC__consulta__form__div #formGroupExampleInput3 {
+.sectionC__article__form__div #formGroupExampleInput3 {
   width: 100%;
   height: 4rem;
   font-size: 1.5rem;
 }
 
 #validationTextarea {
-  width: 94%;
+  width: 92%;
   height: 10rem;
   margin: 2rem 3rem;
-  padding: 0rem 1rem;
   font-size: 1.5rem;
 }
 
@@ -14382,7 +14390,7 @@ html {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .sectionB__article2 {
     margin-top: 3rem;
     padding-top: 3rem;
@@ -14407,7 +14415,7 @@ html {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .sectionN__article__div {
     margin: 5rem 0 0 0;
   }
@@ -14420,17 +14428,35 @@ html {
   .sectionC__article {
     padding: 18rem 0rem 0rem  0rem;
   }
-  .sectionC__consulta {
-    padding: 5rem 0 5rem 0;
+  .sectionC__article__div {
+    margin-bottom: 0rem;
+  }
+  .sectionC__article__form {
+    border: none;
+  }
+  .sectionC__article__form__h2 {
+    padding-top: 3rem;
   }
 }
 
 @media (max-width: 992px) {
   .sectionC__article {
-    padding: 4rem 0 0 0;
+    padding: 0;
+    margin-top: 3rem;
   }
-  .sectionC__consulta {
-    padding: 4rem 0 4rem 0;
+  .sectionC__article__form__h2 {
+    font-weight: 300;
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .sectionC__article__form__h2 {
+    font-weight: 300;
+    font-size: 3.5rem;
+  }
+  #validationTextarea {
+    width: 83%;
   }
 }
 
