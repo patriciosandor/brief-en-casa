@@ -14099,19 +14099,25 @@ html {
   font-weight: lighter;
 }
 
-.sectionC__article__form__div #formGroupExampleInput1 {
+#formGroupExampleInput1 {
   width: 100%;
   height: 4rem;
   font-size: 1.5rem;
 }
 
-.sectionC__article__form__div #formGroupExampleInput2 {
+#formGroupExampleInput2 {
   width: 100%;
   height: 4rem;
   font-size: 1.5rem;
 }
 
-.sectionC__article__form__div #formGroupExampleInput3 {
+#formGroupExampleInput3 {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.5rem;
+}
+
+#inputState {
   width: 100%;
   height: 4rem;
   font-size: 1.5rem;
@@ -14124,15 +14130,9 @@ html {
   font-size: 1.5rem;
 }
 
-#inputState {
-  width: 100%;
-  height: 4rem;
-  font-size: 1.5rem;
-}
-
 .sectionC__consulta__form__btn a {
   font-size: 1.8rem;
-  margin: 1rem;
+  margin: 2rem;
 }
 
 @media (max-width: 992px) {
@@ -14254,7 +14254,13 @@ html {
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1440px) {
+  .footer__section__article__div {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1280px) {
   .footer__section__article__div {
     width: 80%;
   }
