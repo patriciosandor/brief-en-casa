@@ -217,7 +217,38 @@
     @extend .align-items-center;
     @extend .justify-content-around;
     }
+//--------------------------------------------------
+                    //CARUSEL
+//--------------------------------------------------
 
+.preguntas{
+    @extend .accordion;
+    @extend .container;
+    @extend .p-0;
+    &__titulo{
+        @extend .card;
+            &__div{
+            @extend .card-header;
+            &__button{
+                @extend .btn;
+                @extend .btn-link;
+                @extend .btn-block;
+                @extend .text-center;
+            }
+        }
+        &__collapse{
+            @extend .collapse;
+            &__div{
+                @extend .card-body;
+            }
+        }
+    }
+}
+//--------------------------------------------------
+                    //CARUSEL
+//--------------------------------------------------
+
+    
 //--------------------------------------------------
                     //CARUSEL
 //--------------------------------------------------
@@ -226,7 +257,7 @@
     @extend .container-lg;
     @extend .container-fluid;
     &__article{
-        &__div{
+          &__div{
             @extend .carousel;
             @extend .m-auto;
             &__ol{
