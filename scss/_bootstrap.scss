@@ -218,7 +218,7 @@
     @extend .justify-content-around;
     }
 //--------------------------------------------------
-                    //CARUSEL
+                    //ACORDION
 //--------------------------------------------------
 
 .preguntas{
@@ -245,8 +245,18 @@
     }
 }
 //--------------------------------------------------
-                    //CARUSEL
+                    //BOTON  DE COMPRAS 
 //--------------------------------------------------
+.botocompra{
+    @extend .container;
+    @extend .p-0;
+    @extend .d-flex;
+    @extend .justify-content-center;
+    &__button{
+        @extend .btn;
+        @extend .btn-primary;
+    }
+}
 
     
 //--------------------------------------------------
@@ -274,7 +284,7 @@
                 @extend .active;
                 img {
                     @extend .d-block;
-                    @extend .w-100
+                    @extend .w-100;
                 }
             }
         }
