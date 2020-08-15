@@ -13982,7 +13982,7 @@ html {
 
 .preguntas__titulo__collapse__div h5 {
   font-size: 2.5rem;
-  font-weight: 300;
+  font-weight: 400;
   padding: 1rem 2rem;
 }
 
@@ -14519,6 +14519,32 @@ html {
   }
   .index__video {
     width: 100vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .preguntas__titulo {
+    margin: 0 0 3rem 0;
+  }
+  .preguntas__titulo__div__button h2 {
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 300;
+  }
+  .preguntas__titulo__collapse__div h4 {
+    font-size: 2rem;
+  }
+  .preguntas__titulo__collapse__div h5 {
+    font-size: 1.8rem;
+  }
+  .preguntas__titulo__collapse__div p {
+    font-size: 1.6rem;
+  }
+  .preguntas__titulo__collapse__div #p-especial {
+    font-size: 1.8rem;
+  }
+  .preguntas__titulo__collapse__div li {
+    font-size: 1.6rem;
   }
 }
 
