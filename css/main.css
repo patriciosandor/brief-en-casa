@@ -7687,11 +7687,11 @@ button.bg-dark:focus {
   position: static !important;
 }
 
-.position-relative {
+.position-relative, .sectionM__article__div__div__div__div-texto-m__div {
   position: relative !important;
 }
 
-.position-absolute {
+.position-absolute, .sectionM__article__div__div__div__div-texto-m__div img {
   position: absolute !important;
 }
 
@@ -13955,12 +13955,67 @@ html {
   z-index: 4;
 }
 
+.preguntas__titulo {
+  margin: 2rem 0;
+  box-shadow: #979797 0.6rem 0.6rem 3rem 0.4rem;
+}
+
+.preguntas__titulo__div__button {
+  list-style: none;
+}
+
+.preguntas__titulo__div__button h2 {
+  color: black;
+  text-decoration: none;
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+
+.preguntas__titulo__collapse__div h4 {
+  font-size: 3rem;
+  font-weight: 400;
+  padding: 1rem 2rem 1rem;
+  margin-bottom: 1rem;
+  border-bottom: solid 0.2rem;
+  text-align: center;
+}
+
+.preguntas__titulo__collapse__div h5 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  padding: 1rem 2rem;
+}
+
+.preguntas__titulo__collapse__div p {
+  font-size: 1.8rem;
+  font-weight: 300;
+  padding: 1rem 2rem;
+}
+
+.preguntas__titulo__collapse__div #p-especial {
+  font-size: 2rem;
+  font-weight: 300;
+  padding: 1rem 2rem;
+}
+
+.preguntas__titulo__collapse__div li {
+  font-size: 1.8rem;
+  font-weight: 300;
+  padding: 1rem;
+  margin-left: 3rem;
+}
+
+.botocompra {
+  background-color: #f1f1f1;
+}
+
 .botocompra__button {
+  box-shadow: #979797 0.6rem 0.6rem 3rem 0.4rem;
   font-size: 1.8rem;
   font-weight: 500;
   border-radius: 1.2rem;
   padding: 2rem;
-  margin: 2rem 0;
+  margin-top: 4rem;
 }
 
 .carrusel {
@@ -14060,6 +14115,12 @@ html {
   border-radius: 1rem;
   padding: 1.8rem;
   text-align: center;
+}
+
+.sectionM__article__div__div__div__div-texto-m .sectionM__article__div__div__div__div-texto-m__div img {
+  right: 2rem;
+  bottom: 1rem;
+  width: 12%;
 }
 
 .sectionB {

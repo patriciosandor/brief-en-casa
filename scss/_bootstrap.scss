@@ -373,6 +373,7 @@
                         &__div{
                             @extend .d-flex;
                             @extend .justify-content-center;
+                            @extend .position-relative;
                             & a{
                                 @extend .w-50;
                                 @extend .h-75;
@@ -381,6 +382,9 @@
                                 @extend .mb-3;
                                 @extend .mt-3;
 
+                            }
+                            & img{
+                                @extend .position-absolute;
                             }
                         }
                     }   
