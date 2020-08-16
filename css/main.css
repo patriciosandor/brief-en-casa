@@ -13825,7 +13825,7 @@ html {
 }
 
 .header {
-  box-shadow: #979797 0.6rem 0.6rem 3rem 0.4rem;
+  box-shadow: #a5a5a5 0.6rem 0.6rem 3rem 0.4rem;
   position: fixed;
   margin: 0;
   top: 0;
@@ -13839,7 +13839,7 @@ html {
 
 .header__nav__div__a__img {
   padding-left: 2rem;
-  width: 15rem;
+  width: 12.5rem;
 }
 
 .header__nav__redes {
@@ -13957,7 +13957,7 @@ html {
 
 .preguntas__titulo {
   margin: 2rem 0;
-  box-shadow: #979797 0.6rem 0.6rem 3rem 0.4rem;
+  box-shadow: #a5a5a5 0.6rem 0.6rem 3rem 0.4rem;
 }
 
 .preguntas__titulo__div__button {
@@ -14010,7 +14010,7 @@ html {
 }
 
 .botocompra__button {
-  box-shadow: #979797 0.6rem 0.6rem 3rem 0.4rem;
+  box-shadow: #a5a5a5 0.6rem 0.6rem 3rem 0.4rem;
   font-size: 1.8rem;
   font-weight: 500;
   border-radius: 1.2rem;
@@ -14024,7 +14024,7 @@ html {
 }
 
 .carrusel__article__div {
-  box-shadow: #979797 0.6rem 0.6rem 3rem 0.4rem;
+  box-shadow: #a5a5a5 0.6rem 0.6rem 3rem 0.4rem;
   width: 75%;
 }
 
@@ -14058,6 +14058,7 @@ html {
   height: 100%;
   background-color: #f1f1f1;
   padding-top: 5rem;
+  padding-bottom: 3rem;
   border: none;
 }
 
@@ -14073,7 +14074,7 @@ html {
 
 .sectionM__article__div__div__div {
   border-radius: 3rem;
-  box-shadow: 0.6rem 0.6rem 3rem 0.4rem #979797;
+  box-shadow: 0.6rem 0.6rem 3rem 0.4rem #a5a5a5;
 }
 
 .sectionM__article__div__div__div__div-foto-m {
@@ -14146,6 +14147,7 @@ html {
   height: 100%;
   background-color: #f1f1f1;
   padding-top: 5rem;
+  padding-bottom: 3rem;
   border: none;
 }
 
